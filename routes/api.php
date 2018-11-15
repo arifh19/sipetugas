@@ -19,9 +19,12 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 
 Route::group(['prefix' =>'v1', 'middleware' => 'api'], function(){
     Route::resource('penumpang', 'PenumpangController',[
-        //'except' => ['create','edit']
+        'only' => ['store','index']
     ]);
     Route::resource('supir', 'SupirController',[
         //'except' => ['create','edit']
+    ]);
+    Route::resource('kecepatan', 'KecepatanController',[
+        'only' => ['store','index']
     ]);
 });

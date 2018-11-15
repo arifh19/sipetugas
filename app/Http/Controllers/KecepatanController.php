@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Kecepatan;
 
 class KecepatanController extends Controller
 {
@@ -13,7 +14,11 @@ class KecepatanController extends Controller
      */
     public function index()
     {
-        //
+        $kecepatans = Kecepatan::all();
+
+        $response =  $kecepatans;
+
+        return response()->json($response,200);
     }
 
     /**
@@ -34,7 +39,25 @@ class KecepatanController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $this->validate($request,[
+            'kecepatan' => 'required',
+            'bus_id' => 'required',
+            'supir_id' => 'required',
+
+        ]);
+        $kecepatan = Kecepatan::create($request->all());
+
+        if($kecepatan->save()){
+            $message = [
+                'kecepatan' => $kecepatan
+            ];
+            return response()->json($message,201);
+        }
+
+        $response = [
+            'msg' => 'Error during creation',
+        ];
+        return response()->json($response,404);
     }
 
     /**

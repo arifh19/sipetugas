@@ -15,12 +15,7 @@ class PenumpangController extends Controller
     public function index()
     {
         $penumpangs = Penumpang::all();
-        foreach ($penumpangs as $penumpang) {
-            $penumpang->view_hidangan = [
-                'href' => 'api/v1/penumpang/' . $penumpang->id,
-                'method' => 'GET'
-            ];
-        }
+
         $response =  $penumpangs;
 
         return response()->json($response,200);
@@ -44,7 +39,28 @@ class PenumpangController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $this->validate($request,[
+            'naik_pelajar' => 'required',
+            'naik_umum' => 'required',
+            'turun_pelajar' => 'required',
+            'turun_umum' => 'required',
+            'lokasi' => 'required',
+            'jumlah' => 'required',
+
+        ]);
+        $penumpang = Penumpang::create($request->except('user_id'));
+
+        if($penumpang->save()){
+            $message = [
+                'penumpang' => $penumpang
+            ];
+            return response()->json($message,201);
+        }
+
+        $response = [
+            'msg' => 'Error during creation',
+        ];
+        return response()->json($response,404);
     }
 
     /**

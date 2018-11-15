@@ -7,6 +7,7 @@ use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Foundation\Auth\RegistersUsers;
+use App\Role;
 
 class RegisterController extends Controller
 {
@@ -63,10 +64,45 @@ class RegisterController extends Controller
      */
     protected function create(array $data)
     {
-        return User::create([
+        $user = User::create([
             'name' => $data['name'],
             'email' => $data['email'],
-            'password' => Hash::make($data['password']),
+            'password' => bcrypt($data['password']),
         ]);
+
+        $request = app('request');
+
+        // Isi field cover jika ada cover yang diupload
+        if ($request->hasFile('avatar')) {
+
+            // Mengambil file yang diupload
+            $uploaded_avatar = $request->file('avatar');
+
+            // Mengambil extension file
+            $extension = $uploaded_avatar->getClientOriginalExtension();
+
+            // Membuat nama file random berikut extension
+            $filename = md5(time()) . "." . $extension;
+
+            // Menyimpan cover ke folder public/img
+            $destinationPath = public_path() . DIRECTORY_SEPARATOR . 'img';
+            $uploaded_avatar->move($destinationPath, $filename);
+
+            // Mengisi field cover di book dengan filename yang baru dibuat
+            $user->avatar = $filename;
+            $user->save();
+
+        } else {
+
+            // Jika tidak ada cover yang diupload, pilih member_avatar.png
+            $filename = "member_avatar.png";
+            $user->avatar = $filename;
+            $user->save();
+        }
+
+        $memberRole = Role::where('name', 'admin')->first();
+        $user->attachRole($memberRole);
+
+        return $user;
     }
 }

@@ -15,17 +15,17 @@ class CreatePenumpangsTable extends Migration
     {
         Schema::create('penumpangs', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('naik');
-            $table->string('turun');
-            $table->unsignedInteger('kategori_id');
+            $table->string('naik_pelajar');
+            $table->string('naik_umum');
+            $table->string('turun_pelajar');
+            $table->string('turun_umum');
             $table->string('lokasi');
             $table->unsignedInteger('jumlah');
             $table->unsignedInteger('bus_id');
             $table->unsignedInteger('supir_id');
-            $table->unsignedInteger('user_id');
+            $table->unsignedInteger('user_id')->nullable();
             $table->timestamps();
 
-            $table->foreign('kategori_id')->references('id')->on('kategoris')->onUpdate('cascade')->onDelete('cascade');
             $table->foreign('bus_id')->references('id')->on('buses')->onUpdate('cascade')->onDelete('cascade');
             $table->foreign('supir_id')->references('id')->on('supirs')->onUpdate('cascade')->onDelete('cascade');
             $table->foreign('user_id')->references('id')->on('users')->onUpdate('cascade')->onDelete('cascade');
