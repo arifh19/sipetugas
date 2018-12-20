@@ -21,9 +21,9 @@ Route::group(['prefix' =>'v1', 'middleware' => 'api'], function(){
     Route::resource('penumpang', 'PenumpangController',[
         'only' => ['store','index']
     ]);
-    // Route::resource('supir', 'SupirController',[
-    //     //'except' => ['create','edit']
-    // ]);
+    Route::resource('supir', 'SupirController',[
+         'except' => ['create','edit']
+    ]);
     Route::resource('kecepatan', 'KecepatanController',[
         'only' => ['store','index']
     ]);
