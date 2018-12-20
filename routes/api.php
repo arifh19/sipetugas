@@ -24,9 +24,9 @@ Route::group(['prefix' =>'v1', 'middleware' => 'api'], function(){
     Route::resource('supir', 'SupirController',[
         //'except' => ['create','edit']
     ]);
-    // Route::resource('kecepatan', 'KecepatanController',[
-    //     'only' => ['store','index']
-    // ]);
+    Route::resource('kecepatan', 'KecepatanController',[
+        'only' => ['store','index']
+    ]);
     Route::get('kecepatan/{speed?}', function ($speed) {
         return view('kecepatan')->with(compact('speed'));
     });
