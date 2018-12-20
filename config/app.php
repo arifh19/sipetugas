@@ -159,6 +159,9 @@ return [
         Illuminate\Translation\TranslationServiceProvider::class,
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
+        Yajra\DataTables\HtmlServiceProvider::class,
+        Yajra\DataTables\DataTablesServiceProvider::class,
+        //Yajra\DataTables\ButtonsServiceProvider::class,
 
         /*
          * Package Service Providers...
@@ -224,6 +227,7 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
         'Laratrust'   => Laratrust\LaratrustFacade::class,
+        'Html' => Collective\Html\HtmlFacade::class,
 
     ],
 

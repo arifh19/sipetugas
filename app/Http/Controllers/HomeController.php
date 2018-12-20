@@ -3,6 +3,9 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Supir;
+use App\Bus;
+use App\User;
 
 class HomeController extends Controller
 {
@@ -23,6 +26,9 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home');
+        $supir = Supir::get()->count();
+        $bus = Bus::get()->count();
+        $petugas = User::get()->count();
+        return view('home', compact('supir', 'bus', 'petugas'));
     }
 }

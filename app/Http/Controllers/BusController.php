@@ -3,7 +3,10 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Supir;
+use App\Bus;
+use Yajra\DataTables\Html\Builder;
+use Yajra\DataTables\DataTables;
+use Session;
 
 class BusController extends Controller
 {
@@ -12,9 +15,20 @@ class BusController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index(Request $request, Builder $htmlBuilder)
     {
-        //
+        if ($request->ajax()) {
+
+            $buses = Bus::select(['id', 'plat_nomer']);
+
+            return Datatables::of($buses)
+            ->make(true);
+        }
+
+        $html = $htmlBuilder
+        ->addColumn(['data' => 'plat_nomer', 'name' => 'plat_nomer', 'title' => 'Plat Nomor']);
+
+        return view('bus.index')->with(compact('html'));
     }
 
     /**

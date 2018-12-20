@@ -4,6 +4,10 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Supir;
+use App\User;
+use Yajra\DataTables\Html\Builder;
+use Yajra\DataTables\DataTables;
+use Session;
 
 class SupirController extends Controller
 {
@@ -24,6 +28,37 @@ class SupirController extends Controller
         $response =  $supirs;
 
         return response()->json($response,200);
+    }
+
+    public function indexSupir(Request $request, Builder $htmlBuilder)
+    {
+        if ($request->ajax()) {
+
+            $supirs = Supir::select(['id', 'nama_supir']);
+
+            return Datatables::of($supirs)
+            ->make(true);
+        }
+
+        $html = $htmlBuilder
+        ->addColumn(['data' => 'nama_supir', 'name' => 'nama_supir', 'title' => 'Nama Supir']);
+
+        return view('supir.index')->with(compact('html'));
+    }
+    public function indexPetugas(Request $request, Builder $htmlBuilder)
+    {
+        if ($request->ajax()) {
+
+            $user = User::select(['id', 'name']);
+
+            return Datatables::of($user)
+            ->make(true);
+        }
+
+        $html = $htmlBuilder
+        ->addColumn(['data' => 'name', 'name' => 'name', 'title' => 'Nama Petugas']);
+
+        return view('petugas.index')->with(compact('html'));
     }
 
     /**

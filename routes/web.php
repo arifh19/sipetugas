@@ -21,8 +21,7 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/supir', 'SupirController@indexSupir')->name('supir.indexSupir');
 
-Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/bus', 'BusController@index')->name('bus.indexBus');
+Route::get('/petugas', 'SupirController@indexPetugas')->name('petugas.indexPetugas');
