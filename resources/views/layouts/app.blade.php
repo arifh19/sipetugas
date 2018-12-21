@@ -196,7 +196,7 @@
                             <li class="treeview {!! Request::is('penumpang.indexPenumpang') ? 'active' : '' !!}">
                                 <a href="{{ route('penumpang.indexPenumpang') }}">
                                     <i class="fas fa-desktop"></i>
-                                    <span>&nbsp&nbspMonitoring Supir Bus</span>
+                                    <span>&nbsp&nbspMonitoring Penumpang Bus</span>
                                 </a>
                             </li>
 
