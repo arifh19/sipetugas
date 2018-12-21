@@ -25,3 +25,4 @@ Route::get('/supir', 'SupirController@indexSupir')->name('supir.indexSupir');
 
 Route::get('/bus', 'BusController@index')->name('bus.indexBus');
 Route::get('/petugas', 'SupirController@indexPetugas')->name('petugas.indexPetugas');
+Route::get('/penumpang', 'PenumpangController@indexPenumpang')->name('penumpang.indexPenumpang');

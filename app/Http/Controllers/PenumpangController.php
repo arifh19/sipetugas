@@ -4,6 +4,9 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Penumpang;
+use Yajra\DataTables\Html\Builder;
+use Yajra\DataTables\DataTables;
+use Session;
 
 class PenumpangController extends Controller
 {
@@ -20,7 +23,29 @@ class PenumpangController extends Controller
 
         return response()->json($response,200);
     }
+    public function indexPenumpang(Request $request, Builder $htmlBuilder)
+    {
+        if ($request->ajax()) {
 
+            $penumpang = Penumpang::with('supir')->with('bus');
+
+            return Datatables::of($penumpang)
+            ->make(true);
+        }
+
+        $html = $htmlBuilder
+        ->addColumn(['data' => 'naik_pelajar', 'name' => 'naik_pelajar', 'title' => 'Pelajar Masuk'])
+        ->addColumn(['data' => 'turun_pelajar', 'name' => 'turun_pelajar', 'title' => 'Pelajar Keluar'])
+        ->addColumn(['data' => 'naik_umum', 'name' => 'naik_umum', 'title' => 'Umum Masuk'])
+        ->addColumn(['data' => 'turun_umum', 'name' => 'turun_umum', 'title' => 'Umum Keluar'])
+        ->addColumn(['data' => 'lokasi', 'name' => 'lokasi', 'title' => 'Lokasi'])
+        ->addColumn(['data' => 'jumlah', 'name' => 'jumlah', 'title' => 'Jumlah Penumpang'])
+        ->addColumn(['data' => 'supir.nama_supir', 'name' => 'supir.nama_supir', 'title' => 'Nama Supir'])
+        ->addColumn(['data' => 'bus.plat_nomer', 'name' => 'bus.plat_nomer', 'title' => 'Plat Nomor'])
+        ->addColumn(['data' => 'updated_at', 'name' => 'updated_at', 'title' => 'Waktu']);
+
+        return view('monitoring.index')->with(compact('html'));
+    }
     /**
      * Show the form for creating a new resource.
      *
