@@ -114,7 +114,7 @@ Kecepatan Bus
                             console.log("Host="+ host + ", port=" + port + ", path=" + path + " TLS = " + useTLS + " username=" + username + " password=" + password);
                             mqtt.connect(options);
 
-                            document.getElementById('name').innerHTML = "I am "+client_name;
+                           // document.getElementById('name').innerHTML = "I am "+client_name;
                           }
 
                           function onConnect() {
