@@ -1,7 +1,7 @@
 // host = '172.16.153.122';	// hostname or IP address
 host = 'broker.shiftr.io';	// hostname or IP address
 // host = '172.16.153.110';	// hostname or IP address
-port = 443;
+port = 80;
 //monitoring
 topic = '';		// topic to subscribe to
 
