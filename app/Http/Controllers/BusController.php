@@ -4,9 +4,12 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Bus;
+use App\Kecepatan;
 use Yajra\DataTables\Html\Builder;
 use Yajra\DataTables\DataTables;
 use Session;
+use Illuminate\Support\Facades\DB;
+
 
 class BusController extends Controller
 {
@@ -48,7 +51,12 @@ class BusController extends Controller
      */
     public function indexApi()
     {
-        $buses = Bus::all();
+        $buses = Bus::leftJoin('kecepatans', 'buses.id', '=', 'kecepatans.bus_id')
+                ->where('status','!=',1)
+                ->select('buses.id', 'buses.kapasitas', 'buses.created_at','buses.updated_at')
+                ->get();
+
+
         foreach ($buses as $bus) {
             $buses->view_bus = [
                 'href' => 'api/v1/bus/' . $bus->id,
