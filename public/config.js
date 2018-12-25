@@ -5,7 +5,7 @@ port = 443;
 //monitoring
 topic = '';		// topic to subscribe to
 
-useTLS = false;
+useTLS = true;
 username = "f4fa07d5";
 password = "89d8ea01dd465f2f";
 // username = "jjolie";
