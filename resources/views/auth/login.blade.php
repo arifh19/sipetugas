@@ -120,6 +120,6 @@
       });
     </script>
     <!-- Alert JS -->
-  <center><strong>SIPETUGAS V 1.0<br>Copyright &copy; {!! date("Y") !!} <a href="https://arifh.web.id">SIPETUGAS</a>.</strong> All rights reserved.</center>
+  <center><strong>SIPETUGAS V 1.0<br>Copyright &copy; {!! date("Y") !!} <a href="https://sipetugas.web.id">SIPETUGAS</a>.</strong> All rights reserved.</center>
 </body>
 </html>
