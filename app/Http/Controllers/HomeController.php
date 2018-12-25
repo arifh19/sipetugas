@@ -29,6 +29,7 @@ class HomeController extends Controller
         $supir = Supir::get()->count();
         $bus = Bus::get()->count();
         $petugas = User::get()->count();
-        return view('home', compact('supir', 'bus', 'petugas'));
+        $kecepatan = Kecepatan::where('status',1)->get()->count();
+        return view('home', compact('supir', 'bus', 'petugas','kecepatan'));
     }
 }

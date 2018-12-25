@@ -60,7 +60,7 @@
             <!-- small box -->
             <div class="small-box bg-yellow">
               <div class="inner">
-                <h3 id='pintu'>{{$petugas}}</h3>
+                <h3 id='pintu'>{{$kecepatan}}</h3>
 
                 <p>Bus Aktif</p>
               </div>
