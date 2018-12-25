@@ -27,10 +27,18 @@ class PenumpangController extends Controller
     {
         if ($request->ajax()) {
 
-            $penumpang = Penumpang::with('supir')->with('bus');
+            $penumpangs = Penumpang::with('supir')->with('bus');
 
-            return Datatables::of($penumpang)
-            ->make(true);
+            return Datatables::of($penumpangs)
+            ->addColumn('action', function($penumpang) {
+                return view('datatable._status', [
+                    'model'             => $penumpang,
+                    // 'form_url'          => route('supir.destroy', $supir->id),
+                    // 'edit_url'          => route('supir.edit', $supir->id),
+                    // 'view_url'          => route('bus.show', $bus->id),
+                   // 'confirm_message'    => 'Yakin mau menghapus ' . $supir->nama_supir . '?'
+                ]);
+            })->make(true);
         }
 
         $html = $htmlBuilder
@@ -40,6 +48,7 @@ class PenumpangController extends Controller
         ->addColumn(['data' => 'turun_umum', 'name' => 'turun_umum', 'title' => 'Umum Keluar'])
         ->addColumn(['data' => 'lokasi', 'name' => 'lokasi', 'title' => 'Lokasi'])
         ->addColumn(['data' => 'jumlah', 'name' => 'jumlah', 'title' => 'Jumlah Penumpang'])
+        ->addColumn(['data' => 'action', 'name' => 'action', 'title' => 'Kepadatan'])
         ->addColumn(['data' => 'supir.nama_supir', 'name' => 'supir.nama_supir', 'title' => 'Nama Supir'])
         ->addColumn(['data' => 'bus.plat_nomer', 'name' => 'bus.plat_nomer', 'title' => 'Plat Nomor'])
         ->addColumn(['data' => 'updated_at', 'name' => 'updated_at', 'title' => 'Waktu']);
