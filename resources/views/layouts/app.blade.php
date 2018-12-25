@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="{{ asset('/fontawesome/css/all.min.css') }}" >
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>{{ config('app.name', 'Sistem Penghitung Kecepatan Pergerakan Bus Trans Jogja') }}</title>
+    <title>Sistem Penghitung Kecepatan Pergerakan Bus</title>
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <!-- W3School 3.3.6 -->
