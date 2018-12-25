@@ -19,7 +19,7 @@ Bus
                 </div>
                 <!-- /.box-header -->
                 <div class="box-body">
-                    {{--  <p><a class="btn btn-success" href="{{ route('kategoris.create') }}">Tambah</a></p>  --}}
+                     <p><a class="btn btn-success" href="{{ route('bus.create') }}">Tambah</a></p>
                     {!! $html->table(['class' => 'table table-bordered table-striped']) !!}
                 </div>
                 <!-- /.box-body -->

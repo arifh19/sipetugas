@@ -4,7 +4,9 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Kecepatan;
-
+use Yajra\DataTables\Html\Builder;
+use Yajra\DataTables\DataTables;
+use Session;
 class KecepatanController extends Controller
 {
     /**
@@ -12,7 +14,33 @@ class KecepatanController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index(Request $request, Builder $htmlBuilder)
+    {
+        // if ($request->ajax()) {
+
+        //     $kecepatans = Penumpang::with('supir')->with('bus');
+
+        //     return Datatables::of($kecepatans)
+        //     ->addColumn('action', function($kecepatan) {
+        //         return view('datatable._grafik', [
+        //             'model'             => $supir,
+        //             'form_url'          => route('supir.destroy', $kecepatan->id),
+        //             'edit_url'          => route('supir.edit', $kecepatan->id),
+        //             // 'view_url'          => route('bus.show', $bus->id),
+        //             'confirm_message'    => 'Yakin mau menghapus ' . $kecepatan->nama_supir . '?'
+        //         ]);
+        //     })->make(true);
+        // }
+
+        // $html = $htmlBuilder
+        // ->addColumn(['data' => 'supir.nama_supir', 'name' => 'supir.nama_supir', 'title' => 'Nama Supir'])
+        // ->addColumn(['data' => 'bus.plat_nomer', 'name' => 'nama_supir', 'title' => 'Nama Supir'])
+        // ->addColumn(['data' => 'action', 'name' => 'action', 'title' => 'Action', 'orderable' => true, 'searchable' => true]);
+
+
+        return view('kecepatan.index');
+    }
+    public function indexApi()
     {
         $kecepatans = Kecepatan::all();
 

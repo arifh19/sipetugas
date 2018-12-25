@@ -15,11 +15,11 @@ class CreatePenumpangsTable extends Migration
     {
         Schema::create('penumpangs', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('naik_pelajar');
-            $table->string('naik_umum');
-            $table->string('turun_pelajar');
-            $table->string('turun_umum');
-            $table->string('lokasi');
+            $table->integer('naik_pelajar');
+            $table->integer('naik_umum');
+            $table->integer('turun_pelajar');
+            $table->integer('turun_umum');
+            $table->integer('lokasi')->nullable();
             $table->unsignedInteger('jumlah');
             $table->unsignedInteger('bus_id');
             $table->unsignedInteger('supir_id');

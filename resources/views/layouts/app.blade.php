@@ -172,31 +172,37 @@
                             </li>
                             -->
 
-                            <li class="treeview {!! Request::is('supir.indexSupir') ? 'active' : '' !!}">
-                                <a href="{{ route('supir.indexSupir') }}">
-                                    <i class="fas fa-dharmachakra"></i>
+                            <li class="treeview {!! Request::is('supir') ? 'active' : '' !!}">
+                                <a href="{{ route('supir.index') }}">
+                                    <i class="fas fa-radiation-alt"></i>
                                     <span>&nbsp&nbspDaftar Supir</span>
                                 </a>
                             </li>
 
-                            <li class="treeview {!! Request::is('bus.indexBus') ? 'active' : '' !!}">
-                                <a href="{{ route('bus.indexBus') }}">
+                            <li class="treeview {!! Request::is('bus') ? 'active' : '' !!}">
+                                <a href="{{ route('bus.index') }}">
                                     <i class="fas fa-bus"></i>
                                     <span>&nbsp&nbspDaftar Bus</span>
                                 </a>
                             </li>
 
-                            <li class="treeview {!! Request::is('petugas.indexPetugas') ? 'active' : '' !!}">
+                            <li class="treeview {!! Request::is('petugas') ? 'active' : '' !!}">
                                 <a href="{{ route('petugas.indexPetugas') }}">
                                     <i class="fas fa-user-tie"></i>
                                     <span>&nbsp&nbspDaftar Petugas</span>
                                 </a>
                             </li>
 
-                            <li class="treeview {!! Request::is('penumpang.indexPenumpang') ? 'active' : '' !!}">
+                            <li class="treeview {!! Request::is('penumpang') ? 'active' : '' !!}">
                                 <a href="{{ route('penumpang.indexPenumpang') }}">
                                     <i class="fas fa-desktop"></i>
                                     <span>&nbsp&nbspMonitoring Penumpang Bus</span>
+                                </a>
+                            </li>
+                            <li class="treeview {!! Request::is('kecepatan') ? 'active' : '' !!}">
+                                <a href="{{ route('kecepatan.index') }}">
+                                    <i class="fas fa-chart-bar"></i>
+                                    <span>&nbsp&nbspMonitoring Kecepatan Bus</span>
                                 </a>
                             </li>
 
@@ -304,8 +310,6 @@
 <script src="{{ asset('/admin-lte/plugins/jvectormap/jquery-jvectormap-world-mill-en.js') }}"></script>
 <!-- SlimScroll -->
 <script src="{{ asset('/admin-lte/plugins/slimScroll/jquery.slimscroll.min.js') }}"></script>
-<!-- ChartJS 1.0.1 -->
-<script src="{{ asset('/admin-lte/plugins/chartjs/Chart.min.js') }}"></script>
 <!-- DataTables -->
 <script src="{{ asset('/admin-lte/plugins/datatables/jquery.dataTables.min.js') }}"></script>
 <script src="{{ asset('/admin-lte/plugins/datatables/dataTables.bootstrap.min.js') }}"></script>

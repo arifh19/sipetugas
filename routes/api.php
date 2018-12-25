@@ -21,15 +21,10 @@ Route::group(['prefix' =>'v1', 'middleware' => 'api'], function(){
     Route::resource('penumpang', 'PenumpangController',[
         'only' => ['store','index']
     ]);
-    Route::resource('supir', 'SupirController',[
-         'except' => ['create','edit']
-    ]);
-    Route::resource('bus', 'SupirController',[
-        'only' => ['index']
-   ]);
-    Route::resource('kecepatan', 'KecepatanController',[
-        'only' => ['store','index']
-    ]);
+    Route::get('/supir', 'SupirController@indexApi')->name('supir.indexApi');
+
+    Route::get('/bus', 'BusController@indexApi')->name('bus.indexApi');
+    Route::get('/kecepatan', 'KecepatanController@indexApi')->name('kecepatan.indexApi');
     Route::get('kecepatan/{speed?}', function ($speed) {
         return view('kecepatan')->with(compact('speed'));
     });

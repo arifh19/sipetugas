@@ -1,10 +1,16 @@
 <div class="box-body">
-    <div class="form-group has-feedback{{ $errors->has('nama_kategori') ? ' has-error' : '' }}">
-     {!! Form::label('nama_kategori', 'Kategori') !!}
+    <div class="form-group has-feedback{{ $errors->has('plat_nomer') ? ' has-error' : '' }}">
+     {!! Form::label('plat_nomer', 'Plat Nomor') !!}
 
-    {!! Form::text('nama_kategori', null, ['class' => 'form-control', 'placeholder' => 'Nama Kategori']) !!}
-    {!! $errors->first('nama_kategori', '<p class="help-block">:message</p>') !!}
+    {!! Form::text('plat_nomer', null, ['class' => 'form-control', 'placeholder' => 'Plat Nomor']) !!}
+    {!! $errors->first('plat_nomer', '<p class="help-block">:message</p>') !!}
     </div>
+    <div class="form-group has-feedback{{ $errors->has('kapasitas') ? ' has-error' : '' }}">
+        {!! Form::label('kapasitas', 'Kapasitas') !!}
+
+       {!! Form::text('kapasitas', null, ['class' => 'form-control', 'placeholder' => 'Kapasitas']) !!}
+       {!! $errors->first('kapasitas', '<p class="help-block">:message</p>') !!}
+       </div>
 </div>
 <!-- /.box-body -->
 

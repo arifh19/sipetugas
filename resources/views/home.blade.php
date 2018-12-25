@@ -23,7 +23,7 @@
         <div class="icon">
           <i class="fas fa-radiation-alt"></i>
         </div>
-        <a href="{{route('supir.indexSupir')}}" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+        <a href="{{route('supir.index')}}" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
       </div>
     </div>
     <!-- ./col -->
@@ -38,7 +38,7 @@
         <div class="icon">
           <i class="fas fa-bus"></i>
         </div>
-        <a href="{{route('bus.indexBus')}}" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+        <a href="{{route('bus.index')}}" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
       </div>
     </div>
     <!-- ./col -->

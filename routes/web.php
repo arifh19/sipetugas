@@ -20,9 +20,10 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 Auth::routes();
-
-Route::get('/supir', 'SupirController@indexSupir')->name('supir.indexSupir');
-
-Route::get('/bus', 'BusController@index')->name('bus.indexBus');
+Route::resource('bus', 'BusController', [
+]);
+Route::resource('supir', 'SupirController', [
+]);
 Route::get('/petugas', 'SupirController@indexPetugas')->name('petugas.indexPetugas');
 Route::get('/penumpang', 'PenumpangController@indexPenumpang')->name('penumpang.indexPenumpang');
+Route::get('/kecepatan', 'KecepatanController@index')->name('kecepatan.index');

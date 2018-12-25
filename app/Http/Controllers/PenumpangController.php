@@ -73,8 +73,9 @@ class PenumpangController extends Controller
             'jumlah' => 'required',
 
         ]);
-        $penumpang = Penumpang::create($request->except('user_id'));
-
+        $penumpang = Penumpang::create($request->except('user_id','lokasi'));
+        $penumpang->lokasi="https://www.google.com/maps/search/".$request->input('lokasi');
+        $penumpang->save();
         if($penumpang->save()){
             $message = [
                 'penumpang' => $penumpang

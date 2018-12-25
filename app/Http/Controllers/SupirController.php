@@ -16,7 +16,7 @@ class SupirController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function indexApi()
     {
         $supirs = Supir::all();
         foreach ($supirs as $supir) {
@@ -30,18 +30,28 @@ class SupirController extends Controller
         return response()->json($response,200);
     }
 
-    public function indexSupir(Request $request, Builder $htmlBuilder)
+    public function index(Request $request, Builder $htmlBuilder)
     {
         if ($request->ajax()) {
 
             $supirs = Supir::select(['id', 'nama_supir']);
 
             return Datatables::of($supirs)
-            ->make(true);
+            ->addColumn('action', function($supir) {
+                return view('datatable._action', [
+                    'model'             => $supir,
+                    'form_url'          => route('supir.destroy', $supir->id),
+                    'edit_url'          => route('supir.edit', $supir->id),
+                    // 'view_url'          => route('bus.show', $bus->id),
+                    'confirm_message'    => 'Yakin mau menghapus ' . $supir->nama_supir . '?'
+                ]);
+            })->make(true);
         }
 
         $html = $htmlBuilder
-        ->addColumn(['data' => 'nama_supir', 'name' => 'nama_supir', 'title' => 'Nama Supir']);
+        ->addColumn(['data' => 'nama_supir', 'name' => 'nama_supir', 'title' => 'Nama Supir'])
+        ->addColumn(['data' => 'action', 'name' => 'action', 'title' => 'Action', 'orderable' => true, 'searchable' => true]);
+
 
         return view('supir.index')->with(compact('html'));
     }
@@ -68,7 +78,7 @@ class SupirController extends Controller
      */
     public function create()
     {
-        //
+        return view('supir.create');
     }
 
     /**
@@ -79,7 +89,22 @@ class SupirController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $this->validate($request, [
+            'nama_supir' => 'required:supirs'
+        ],
+        [
+            'nama_supir.required' => 'Nama Supir masih kosong',
+        ]);
+
+        $supir = Supir::create($request->all());
+
+        Session::flash("flash_notification", [
+            "level" => "success",
+            "icon" => "fa fa-check",
+            "message" => "Berhasil menyimpan $supir->nama_supir"
+        ]);
+
+        return redirect()->route('supir.index');
     }
 
     /**
@@ -101,7 +126,9 @@ class SupirController extends Controller
      */
     public function edit($id)
     {
-        //
+        $supir = Supir::find($id);
+
+        return view('supir.edit')->with(compact('supir'));
     }
 
     /**
@@ -113,7 +140,23 @@ class SupirController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $this->validate($request, [
+            'nama_supir' => 'required:supirs'
+        ], [
+            'nama_supir.required' => 'Nama Supir masih kosong',
+        ]);
+
+        $supir = Supir::find($id);
+
+        $supir->update($request->only('nama_supir'));
+
+        Session::flash("flash_notification", [
+            "level" => "success",
+            "icon" => "fa fa-check",
+            "message" => "Berhasil mengubah $supir->nama_supir"
+        ]);
+
+        return redirect()->route('supir.index');
     }
 
     /**
@@ -124,6 +167,14 @@ class SupirController extends Controller
      */
     public function destroy($id)
     {
-        //
+        if(!Supir::destroy($id)) return redirect()->back();
+
+        Session::flash("flash_notification", [
+            "level" => "success",
+            "icon" => "fa fa-check",
+            "message" => "Supir berhasil dihapus"
+        ]);
+
+        return redirect()->route('supir.index');
     }
 }
