@@ -69,7 +69,7 @@ class KecepatanController extends Controller
     public function store(Request $request)
     {
         $this->validate($request,[
-            'kecepatan' => 'required',
+            'status' => 'required',
             'bus_id' => 'required',
             'supir_id' => 'required',
 

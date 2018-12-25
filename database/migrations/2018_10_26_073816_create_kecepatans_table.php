@@ -15,7 +15,7 @@ class CreateKecepatansTable extends Migration
     {
         Schema::create('kecepatans', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('kecepatan');
+            $table->integer('status');
             $table->unsignedInteger('bus_id');
             $table->unsignedInteger('supir_id');
             $table->timestamps();
