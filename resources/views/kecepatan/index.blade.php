@@ -21,8 +21,7 @@
                         <div class="info-box-content">
                           <span class="info-box-text">Plat Nomer : {{$kecepatan->bus->plat_nomer}}</span>
                           <span class="info-box-number">Supir : {{$kecepatan->supir->nama_supir}}</span>
-                          <a href="http://">Monitor</a>
-                          <button onclick="gantiTopic('lintasdisiplin/sipetugas/{{$kecepatan->supir_id}}','{{$kecepatan->bus->plat_nomer}}')">Monitor</button>
+                          <a onclick="gantiTopic('lintasdisiplin/sipetugas/{{$kecepatan->supir_id}}','{{$kecepatan->bus->plat_nomer}}')" class="btn btn-info">Monitor</a>
                         </div>
                         <!-- /.info-box-content -->
                       </div>
