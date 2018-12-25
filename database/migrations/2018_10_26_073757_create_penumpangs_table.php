@@ -19,7 +19,7 @@ class CreatePenumpangsTable extends Migration
             $table->integer('naik_umum');
             $table->integer('turun_pelajar');
             $table->integer('turun_umum');
-            $table->integer('lokasi')->nullable();
+            $table->string('lokasi')->nullable();
             $table->unsignedInteger('jumlah');
             $table->unsignedInteger('bus_id');
             $table->unsignedInteger('supir_id');
