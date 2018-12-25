@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Supir;
 use App\Bus;
 use App\User;
+use App\Kecepatan;
 
 class HomeController extends Controller
 {
