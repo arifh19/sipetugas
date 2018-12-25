@@ -161,16 +161,16 @@
                             Hanya coba buat menu 'active' pakai Blade macro.
                             Tapi Lebih enak pakai Request::is()
                             -->
-                            {!! Html::smartNav(url('home'), 'fa-dashboard', 'Dashboard') !!}
+                            {{-- {!! Html::smartNav(url('home'), 'fa-dashboard', 'Dashboard') !!} --}}
 
-                            <!--
+
                             <li class="treeview {!! Request::is('home') ? 'active' : '' !!}">
                                 <a href="{{ url('home') }}">
                                     <i class="fa fa-dashboard"></i>
                                     <span>Dashboard</span>
                                 </a>
                             </li>
-                            -->
+
 
                             <li class="treeview {!! Request::is('supir') ? 'active' : '' !!}">
                                 <a href="{{ route('supir.index') }}">

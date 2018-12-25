@@ -18,6 +18,8 @@
             <center><h4>Daftar Supir</h4></center>
             @foreach($kecepatans as $kecepatan)
                 <div class="info-box">
+                        <span class="info-box-icon bg-green"><i></i>
+                            <img src="{{ asset('/img/'. auth()->user()->avatar) }}" class="img-circle" alt="User Image"></span>
                         <div class="info-box-content">
                           <span class="info-box-text">Plat Nomer : {{$kecepatan->bus->plat_nomer}}</span>
                           <span class="info-box-number">Supir : {{$kecepatan->supir->nama_supir}}</span>
