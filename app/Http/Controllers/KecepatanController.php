@@ -78,7 +78,7 @@ class KecepatanController extends Controller
         $kecepatan = Kecepatan::where('bus_id',$request->input('bus_id'))->where('supir_id',$request->input('supir_id'));
         if($kecepatan->get()->count()>=1){
             $kecepatan->first()->status = $request->input('status');
-            $kecepatan->first()->save();
+
         }
         else{
             $kecepatan = Kecepatan::create($request->all());
