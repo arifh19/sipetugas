@@ -25,6 +25,7 @@ Route::group(['prefix' =>'v1', 'middleware' => 'api'], function(){
 
     Route::get('/bus', 'BusController@indexApi')->name('bus.indexApi');
     Route::get('/kecepatan', 'KecepatanController@indexApi')->name('kecepatan.indexApi');
+    Route::post('/kecepatan', 'KecepatanController@store')->name('kecepatan.storeApi');
     Route::get('kecepatan/{speed?}', function ($speed) {
         return view('kecepatan')->with(compact('speed'));
     });
