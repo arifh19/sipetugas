@@ -51,7 +51,10 @@ class BusController extends Controller
      */
     public function indexApi()
     {
-        $buses = Bus::all();
+        $buses = Bus::leftJoin('kecepatans', 'buses.id', '=', 'kecepatans.bus_id')
+                ->where('status','=',null)->orWhere('status','!=',1)
+                ->select('buses.id', 'buses.plat_nomer', 'buses.created_at','buses.updated_at')
+                ->get();
 
 
         foreach ($buses as $bus) {
