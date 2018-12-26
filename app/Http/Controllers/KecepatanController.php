@@ -78,19 +78,25 @@ class KecepatanController extends Controller
         $kecepatan = Kecepatan::where('bus_id',$request->input('bus_id'))->where('supir_id',$request->input('supir_id'));
         if($kecepatan->get()->count()>=1){
             $kecepatan->first()->status = $request->input('status');
-
+            if($kecepatan->first()->save()){
+                $message = [
+                    'kecepatan' => $kecepatan
+                ];
+                return response()->json($message,201);
+            }
         }
         else{
             $kecepatan = Kecepatan::create($request->all());
+            if($kecepatan->save()){
+                $message = [
+                    'kecepatan' => $kecepatan
+                ];
+                return response()->json($message,201);
+            }
         }
 
 
-        if($kecepatan->save()){
-            $message = [
-                'kecepatan' => $kecepatan
-            ];
-            return response()->json($message,201);
-        }
+
 
         $response = [
             'msg' => 'Error during creation',
