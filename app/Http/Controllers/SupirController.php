@@ -18,12 +18,9 @@ class SupirController extends Controller
      */
     public function indexApi()
     {
-        $supirs = Supir::leftJoin('kecepatans', 'supirs.id', '=', 'kecepatans.supir_id')
-                ->where('status','=',null)->orWhere('status','!=',1)
-                ->select('supirs.id', 'supirs.nama_supir', 'supirs.created_at','supirs.updated_at')
-                ->get();
+        $supirs = Supir::where('status','=!','1')->get();
         foreach ($supirs as $supir) {
-            $supirs->view_hidangan = [
+            $supirs->view_supir = [
                 'href' => 'api/v1/supir/' . $supir->id,
                 'method' => 'GET'
             ];

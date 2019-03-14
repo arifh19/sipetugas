@@ -75,22 +75,18 @@ class KecepatanController extends Controller
             'supir_id' => 'required',
 
         ]);
-        $kecepatan = Kecepatan::where('bus_id',$request->input('bus_id'))->where('supir_id',$request->input('supir_id'))->first();
-        if($kecepatan==null){
-            $kecepatan = Kecepatan::create($request->all());
-        }
-        else if($kecepatan->count()>=1){
-            $kecepatan->status = $request->input('status');
-            $kecepatan->save();
+        $supir = Supir::find($request->input('supir_id'));
+        $bus = Bus::find($request->input('bus_id'));
+        $supir->status = $request->input('status');
+        $bus->status = $request->input('status');
+        $bus->save();
+        $supir->save();
 
-        }
-        else if($kecepatan->count()<1){
-            $kecepatan = Kecepatan::create($request->all());
-        }
 
         if($kecepatan->save()){
             $message = [
-                'kecepatan' => $kecepatan
+                'bus' => $bus,
+                'supir' => $supir,
             ];
             return response()->json($message,201);
         }
