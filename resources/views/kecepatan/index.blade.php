@@ -29,19 +29,7 @@
                     <!-- /.info-box-content -->
                 </div>
             @endfor
-            {{-- @foreach($supirs as $supir)
-                    <div class="info-box">
-                        <span class="info-box-icon bg-green"><i></i>
-                            <img src="{{ asset('/img/'. auth()->user()->avatar) }}" class="img-circle" alt="User Image"></span>
-                        <div class="info-box-content">
-                          <span class="info-box-text">Plat Nomer : {{$buses->get(i)->plat_nomer}}</span>
-                          <span class="info-box-number">Supir : {{$supir->nama_supir}}</span>
-                          <a onclick="gantiTopic('lintasdisiplin/sipetugas/{{$supir->id}}','{{$buses[0]->plat_nomer}}')" class="btn btn-info">Monitor</a>
-                        </div>
-                        <!-- /.info-box-content -->
-                      </div>
-                      
-            @endforeach --}}
+
 
                     {{--  <p><a class="btn btn-success" href="{{ route('kategoris.create') }}">Tambah</a></p>  --}}
                     {{-- {!! $html->table(['class' => 'table table-bordered table-striped']) !!} --}}
