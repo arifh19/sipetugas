@@ -14,11 +14,11 @@ class AddStatus extends Migration
     public function up()
     {
         Schema::table('supirs', function (Blueprint $table) {
-            $table->timestamp('status')->after('nama_supir')->nullable();
+            $table->unsignedInteger('status')->after('nama_supir')->nullable();
         });
 
         Schema::table('buses', function (Blueprint $table) {
-            $table->timestamp('status')->after('kapasitas')->nullable();
+            $table->unsignedInteger('status')->after('kapasitas')->nullable();
         });
     }
 
