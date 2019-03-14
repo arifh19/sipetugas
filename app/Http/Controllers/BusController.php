@@ -51,7 +51,7 @@ class BusController extends Controller
      */
     public function indexApi()
     {
-        $buses = Supir::where('status','=!','1')->get();
+        $buses = Bus::where('status','=!','1')->get();
 
 
         foreach ($buses as $bus) {
