@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Kecepatan;
+use App\Bus;
+use App\Supir;
 use Yajra\DataTables\Html\Builder;
 use Yajra\DataTables\DataTables;
 use Session;
