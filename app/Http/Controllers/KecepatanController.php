@@ -18,7 +18,8 @@ class KecepatanController extends Controller
      */
     public function index(Request $request, Builder $htmlBuilder)
     {
-        $kecepatans = Kecepatan::where('status',1)->with('supir')->with('bus')->get();
+        $buses = Bus::where('status',1)->get();
+        $supirs = Supir::where('status',1)->get();
         // if ($request->ajax()) {
 
         //     $kecepatans = Penumpang::with('supir')->with('bus');
@@ -41,7 +42,7 @@ class KecepatanController extends Controller
         // ->addColumn(['data' => 'action', 'name' => 'action', 'title' => 'Action', 'orderable' => true, 'searchable' => true]);
 
 
-        return view('kecepatan.index')->with(compact('kecepatans'));
+        return view('kecepatan.index')->with(compact('buses','supirs'));
     }
     public function indexApi()
     {

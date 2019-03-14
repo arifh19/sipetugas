@@ -16,19 +16,32 @@
     <div class="row">
         <div class="col-lg-3 col-xs-6">
             <center><h4>Daftar Supir</h4></center>
-            @foreach($kecepatans as $kecepatan)
+
+            @for ($i = 0;$i  < $supirs->count(); $i++)
                 <div class="info-box">
+                    <span class="info-box-icon bg-green"><i></i>
+                        <img src="{{ asset('/img/'. auth()->user()->avatar) }}" class="img-circle" alt="User Image"></span>
+                    <div class="info-box-content">
+                    <span class="info-box-text">Plat Nomer : {{$buses->get($i)->plat_nomer}}</span>
+                    <span class="info-box-number">Supir : {{$supirs->get($i)->nama_supir}}</span>
+                    <a onclick="gantiTopic('lintasdisiplin/sipetugas/{{$supirs->get($i)->id}}','{{$buses->get($i)->plat_nomer}}')" class="btn btn-info">Monitor</a>
+                    </div>
+                    <!-- /.info-box-content -->
+                </div>
+            @endfor
+            {{-- @foreach($supirs as $supir)
+                    <div class="info-box">
                         <span class="info-box-icon bg-green"><i></i>
                             <img src="{{ asset('/img/'. auth()->user()->avatar) }}" class="img-circle" alt="User Image"></span>
                         <div class="info-box-content">
-                          <span class="info-box-text">Plat Nomer : {{$kecepatan->bus->plat_nomer}}</span>
-                          <span class="info-box-number">Supir : {{$kecepatan->supir->nama_supir}}</span>
-                          <a onclick="gantiTopic('lintasdisiplin/sipetugas/{{$kecepatan->supir_id}}','{{$kecepatan->bus->plat_nomer}}')" class="btn btn-info">Monitor</a>
+                          <span class="info-box-text">Plat Nomer : {{$buses->get(i)->plat_nomer}}</span>
+                          <span class="info-box-number">Supir : {{$supir->nama_supir}}</span>
+                          <a onclick="gantiTopic('lintasdisiplin/sipetugas/{{$supir->id}}','{{$buses[0]->plat_nomer}}')" class="btn btn-info">Monitor</a>
                         </div>
                         <!-- /.info-box-content -->
                       </div>
-
-            @endforeach
+                      
+            @endforeach --}}
 
                     {{--  <p><a class="btn btn-success" href="{{ route('kategoris.create') }}">Tambah</a></p>  --}}
                     {{-- {!! $html->table(['class' => 'table table-bordered table-striped']) !!} --}}
