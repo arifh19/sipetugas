@@ -101,7 +101,25 @@ class KecepatanController extends Controller
         ];
         return response()->json($response,404);
     }
+    public function simpan(Request $request)
+    {
+        $this->validate($request,[
+            'kecepatan' => 'required',
+        ]);
+        $kecepatan = Kecepatan::create($request->all());
 
+        if($kecepatan->save()){
+            $message = [
+                'kecepatan' => $kecepatan
+            ];
+            return response()->json($message,201);
+        }
+
+        $response = [
+            'msg' => 'Error during creation',
+        ];
+        return response()->json($response,404);
+    }
     /**
      * Display the specified resource.
      *

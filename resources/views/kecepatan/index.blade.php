@@ -24,6 +24,7 @@
                     <div class="info-box-content">
                     <span class="info-box-text">Plat Nomer : {{$buses->get($i)->plat_nomer}}</span>
                     <span class="info-box-number">Supir : {{$supirs->get($i)->nama_supir}}</span>
+                    <span id="supir" hidden>{{$supirs->get($i)->id}}</span>
                     <a onclick="gantiTopic('lintasdisiplin/sipetugas/{{$supirs->get($i)->id}}','{{$buses->get($i)->plat_nomer}}')" class="btn btn-info">Monitor</a>
                     </div>
                     <!-- /.info-box-content -->
@@ -160,11 +161,18 @@
                   };
 
                   function onMessageArrived(message) {
-
+                    var xhr = new XMLHttpRequest();
                     var topic = message.destinationName;
                     var payload = message.payloadString;
                     var time = (new Date()).getTime();
+                    var supir = Document.getElementById('supir').innerHTML;
                     if(topic==topics){
+                        xhr.open("POST", 'https://sipetugas.web.id/api/v1/simpan', true);
+                        xhr.setRequestHeader('Content-Type', 'application/json');
+                        xhr.send(JSON.stringify({
+                            kecepatan: payload,
+                            supir_id: supir
+                        }));
                         var temporary = {x: time, y: parseInt(payload)};
 
                         if(temp.length > 10) {

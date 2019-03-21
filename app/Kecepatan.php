@@ -6,7 +6,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class Kecepatan extends Model
 {
-    protected $fillable = ['status', 'bus_id','supir_id'];
+    protected $fillable = ['kecepatan','supir_id'];
+    
     public function supir()
     {
         return $this->belongsTo('App\Supir');
