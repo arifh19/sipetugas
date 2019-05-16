@@ -165,14 +165,14 @@
                     var topic = message.destinationName;
                     var payload = message.payloadString;
                     var time = (new Date()).getTime();
-                    var supir = Document.getElementById('supir').innerHTML;
+                    var supir = document.getElementById('supir').innerHTML;
                     if(topic==topics){
-                        // xhr.open("POST", 'https://sipetugas.web.id/api/v1/simpan', true);
-                        // xhr.setRequestHeader('Content-Type', 'application/json');
-                        // xhr.send(JSON.stringify({
-                        //     kecepatan: payload,
-                        //     supir_id: supir
-                        // }));
+                        xhr.open("POST", 'http://10.73.9.71:8000/api/simpan', true);
+                        xhr.setRequestHeader('Content-Type', 'application/json');
+                        xhr.send(JSON.stringify({
+                            kecepatan: payload,
+                            supir_id: supir
+                        }));
                         var temporary = {x: time, y: parseInt(payload)};
 
                         if(temp.length > 10) {
@@ -182,7 +182,7 @@
                         temp.push(temporary);
                         console.log(temp);
                         Chart.series[0].setData(temp);
-                        document.getElementById('ws').innerHTML = new Date(time).toString()+" : "+payload;
+                        //document.getElementById('ws').innerHTML = new Date(time).toString()+" : "+payload;
                     }
 
                   };

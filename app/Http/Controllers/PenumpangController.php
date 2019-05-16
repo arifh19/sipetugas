@@ -25,6 +25,7 @@ class PenumpangController extends Controller
     }
     public function indexPenumpang(Request $request, Builder $htmlBuilder)
     {
+
         if ($request->ajax()) {
 
             $penumpangs = Penumpang::with('supir')->with('bus');
@@ -38,7 +39,11 @@ class PenumpangController extends Controller
                     // 'view_url'          => route('bus.show', $bus->id),
                    // 'confirm_message'    => 'Yakin mau menghapus ' . $supir->nama_supir . '?'
                 ]);
-            })->make(true);
+            })->addColumn('peta', function($penumpang) {
+                return view('datatable._peta', [
+                    'model'             => $penumpang,
+                ]);
+            })->rawColumns(['peta','action'])->make(true);
         }
 
         $html = $htmlBuilder
@@ -46,7 +51,7 @@ class PenumpangController extends Controller
         ->addColumn(['data' => 'turun_pelajar', 'name' => 'turun_pelajar', 'title' => 'Pelajar Keluar'])
         ->addColumn(['data' => 'naik_umum', 'name' => 'naik_umum', 'title' => 'Umum Masuk'])
         ->addColumn(['data' => 'turun_umum', 'name' => 'turun_umum', 'title' => 'Umum Keluar'])
-        ->addColumn(['data' => 'lokasi', 'name' => 'lokasi', 'title' => 'Lokasi'])
+        ->addColumn(['data' => 'peta', 'name' => 'peta', 'title' => 'Lokasi'])
         ->addColumn(['data' => 'jumlah', 'name' => 'jumlah', 'title' => 'Jumlah Penumpang'])
         ->addColumn(['data' => 'action', 'name' => 'action', 'title' => 'Kepadatan'])
         ->addColumn(['data' => 'supir.nama_supir', 'name' => 'supir.nama_supir', 'title' => 'Nama Supir'])

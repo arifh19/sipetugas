@@ -76,6 +76,7 @@ class KecepatanController extends Controller
             'status' => 'required',
             'bus_id' => 'required',
             'supir_id' => 'required',
+            'status' => 'required',
 
         ]);
         $supir = Supir::find($request->input('supir_id'));
